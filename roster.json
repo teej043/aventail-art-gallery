@@ -48,6 +48,12 @@
          "file": "files/minotaur/minotaur_portrait_v1.webp",
          "date": "2026-11-03",
          "note": "Portrait draft"
+        },
+        {
+         "label": "v1-raw",
+         "file": "files/minotaur/minotaur_portrait_v1-raw.webp",
+         "date": "2026-11-04",
+         "note": "Raw colour, white bg"
         }
        ]
       },
@@ -212,6 +218,12 @@
          "file": "files/stone_golem/stone_golem_portrait_v4.webp",
          "date": "2026-11-03",
          "note": "Final, \"this one is perfect\" (approved)"
+        },
+        {
+         "label": "v4-raw",
+         "file": "files/stone_golem/stone_golem_portrait_v4-raw.webp",
+         "date": "2026-11-04",
+         "note": "Raw colour, white bg"
         }
        ]
       },
@@ -346,6 +358,12 @@
          "file": "files/clay_golem/clay_golem_portrait_v6.webp",
          "date": "2026-11-03",
          "note": "v6"
+        },
+        {
+         "label": "v6-raw",
+         "file": "files/clay_golem/clay_golem_portrait_v6-raw.webp",
+         "date": "2026-11-04",
+         "note": "Raw colour, white bg"
         }
        ]
       },
@@ -516,6 +534,18 @@
          "file": "files/merfolk/merfolk_portrait_v2b.webp",
          "date": "2026-11-04",
          "note": "Branch of v2: no weapon, leaning right"
+        },
+        {
+         "label": "v13-raw",
+         "file": "files/merfolk/merfolk_portrait_v13-raw.webp",
+         "date": "2026-11-04",
+         "note": "v13, raw colour, white bg"
+        },
+        {
+         "label": "v2b-raw",
+         "file": "files/merfolk/merfolk_portrait_v2b-raw.webp",
+         "date": "2026-11-04",
+         "note": "v2b, raw colour, white bg"
         }
        ]
       },
@@ -614,7 +644,20 @@
      "slots": {
       "portrait": {
        "status": "pending",
-       "versions": []
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/titan/titan_portrait_v1.webp",
+         "date": "2026-11-04",
+         "note": "Original portrait (tinted)"
+        },
+        {
+         "label": "v1-raw",
+         "file": "files/titan/titan_portrait_v1-raw.webp",
+         "date": "2026-11-04",
+         "note": "Raw colour, white bg"
+        }
+       ]
       },
       "idle_se": {
        "status": "pending",
@@ -767,6 +810,12 @@
          "file": "files/yeti/yeti_portrait_v1.jpg",
          "date": "2026-11-02",
          "note": "Approved portrait"
+        },
+        {
+         "label": "v2-raw",
+         "file": "files/yeti/yeti_portrait_v2-raw.webp",
+         "date": "2026-11-04",
+         "note": "Raw colour, white bg"
         }
        ]
       },
@@ -847,7 +896,20 @@
      "slots": {
       "portrait": {
        "status": "pending",
-       "versions": []
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/gryphon/gryphon_portrait_v1.webp",
+         "date": "2026-11-04",
+         "note": "Original portrait (tinted)"
+        },
+        {
+         "label": "v1-raw",
+         "file": "files/gryphon/gryphon_portrait_v1-raw.webp",
+         "date": "2026-11-04",
+         "note": "Raw colour, white bg"
+        }
+       ]
       },
       "idle_se": {
        "status": "pending",
@@ -958,6 +1020,12 @@
          "file": "files/cyclops/cyclops_portrait_v4.webp",
          "date": "2026-11-02",
          "note": "Portrait draft v8"
+        },
+        {
+         "label": "v4-raw",
+         "file": "files/cyclops/cyclops_portrait_v4-raw.webp",
+         "date": "2026-11-04",
+         "note": "Raw colour, white bg"
         }
        ]
       },
@@ -1136,7 +1204,20 @@
      "slots": {
       "portrait": {
        "status": "pending",
-       "versions": []
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/giant/giant_portrait_v1.webp",
+         "date": "2026-11-04",
+         "note": "Original portrait (tinted)"
+        },
+        {
+         "label": "v1-raw",
+         "file": "files/giant/giant_portrait_v1-raw.webp",
+         "date": "2026-11-04",
+         "note": "Raw colour, white bg"
+        }
+       ]
       },
       "idle_se": {
        "status": "pending",
@@ -1221,7 +1302,20 @@
      "slots": {
       "portrait": {
        "status": "pending",
-       "versions": []
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/centaur/centaur_portrait_v1.webp",
+         "date": "2026-11-04",
+         "note": "Original portrait (tinted)"
+        },
+        {
+         "label": "v1-raw",
+         "file": "files/centaur/centaur_portrait_v1-raw.webp",
+         "date": "2026-11-04",
+         "note": "Raw colour, white bg"
+        }
+       ]
       },
       "idle_se": {
        "status": "pending",
@@ -1325,7 +1419,20 @@
      "slots": {
       "portrait": {
        "status": "pending",
-       "versions": []
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/satyr/satyr_portrait_v1.webp",
+         "date": "2026-11-04",
+         "note": "Original portrait (tinted)"
+        },
+        {
+         "label": "v1-raw",
+         "file": "files/satyr/satyr_portrait_v1-raw.webp",
+         "date": "2026-11-04",
+         "note": "Raw colour, white bg"
+        }
+       ]
       },
       "idle_se": {
        "status": "pending",
