@@ -630,6 +630,18 @@
         {
          "label": "v1",
          "file": "files/titan/titan_move_se_v1.gif",
+         "date": "2026-10-30",
+         "note": "Walk v1 [ex-Brawler]"
+        },
+        {
+         "label": "v2",
+         "file": "files/titan/titan_move_se_v2.gif",
+         "date": "2026-10-30",
+         "note": "Walk revised [ex-Brawler]"
+        },
+        {
+         "label": "v3",
+         "file": "files/titan/titan_move_se_v3.gif",
          "date": "2026-11-02",
          "note": "SE walk used as reference"
         }
@@ -768,11 +780,31 @@
       },
       "move_se": {
        "status": "pending",
-       "versions": []
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/yeti/yeti_move_se_v1.gif",
+         "date": "2026-11-02",
+         "note": "Walk [ex-Giant3]"
+        }
+       ]
       },
       "move_nw": {
        "status": "pending",
-       "versions": []
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/yeti/yeti_move_nw_v1.gif",
+         "date": "2026-11-02",
+         "note": "Walk v1 [ex-Giant3]"
+        },
+        {
+         "label": "v2",
+         "file": "files/yeti/yeti_move_nw_v2.gif",
+         "date": "2026-11-02",
+         "note": "Walk revised [ex-Giant3]"
+        }
+       ]
       },
       "hurt_se": {
        "status": "pending",
@@ -905,13 +937,25 @@
        "versions": [
         {
          "label": "v1",
-         "file": "files/cyclops/cyclops_portrait_v1.webp",
+         "file": "files/cyclops/cyclops_portrait_v1.jpg",
          "date": "2026-11-02",
-         "note": "Portrait draft v4"
+         "note": "Portrait draft (cyc3)"
         },
         {
          "label": "v2",
          "file": "files/cyclops/cyclops_portrait_v2.webp",
+         "date": "2026-11-02",
+         "note": "Portrait draft v4"
+        },
+        {
+         "label": "v3",
+         "file": "files/cyclops/cyclops_portrait_v3.jpg",
+         "date": "2026-11-02",
+         "note": "Portrait draft (cyc7)"
+        },
+        {
+         "label": "v4",
+         "file": "files/cyclops/cyclops_portrait_v4.webp",
          "date": "2026-11-02",
          "note": "Portrait draft v8"
         }
@@ -919,11 +963,97 @@
       },
       "idle_se": {
        "status": "pending",
-       "versions": []
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/cyclops/cyclops_idle_se_v1.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 1 [ex-Ogre]"
+        },
+        {
+         "label": "v2",
+         "file": "files/cyclops/cyclops_idle_se_v2.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 2 [ex-Ogre]"
+        },
+        {
+         "label": "v3",
+         "file": "files/cyclops/cyclops_idle_se_v3.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 3 [ex-Ogre]"
+        },
+        {
+         "label": "v4",
+         "file": "files/cyclops/cyclops_idle_se_v4.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 4 [ex-Ogre]"
+        },
+        {
+         "label": "v5",
+         "file": "files/cyclops/cyclops_idle_se_v5.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 5 [ex-Ogre]"
+        },
+        {
+         "label": "v6",
+         "file": "files/cyclops/cyclops_idle_se_v6.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 6 [ex-Ogre]"
+        },
+        {
+         "label": "v7",
+         "file": "files/cyclops/cyclops_idle_se_v7.gif",
+         "date": "2026-10-30",
+         "note": "Idle final [ex-Ogre]"
+        }
+       ]
       },
       "idle_nw": {
        "status": "pending",
-       "versions": []
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/cyclops/cyclops_idle_nw_v1.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 1 [ex-Ogre]"
+        },
+        {
+         "label": "v2",
+         "file": "files/cyclops/cyclops_idle_nw_v2.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 2 [ex-Ogre]"
+        },
+        {
+         "label": "v3",
+         "file": "files/cyclops/cyclops_idle_nw_v3.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 3 [ex-Ogre]"
+        },
+        {
+         "label": "v4",
+         "file": "files/cyclops/cyclops_idle_nw_v4.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 4 [ex-Ogre]"
+        },
+        {
+         "label": "v5",
+         "file": "files/cyclops/cyclops_idle_nw_v5.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 5 [ex-Ogre]"
+        },
+        {
+         "label": "v6",
+         "file": "files/cyclops/cyclops_idle_nw_v6.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 6 [ex-Ogre]"
+        },
+        {
+         "label": "v7",
+         "file": "files/cyclops/cyclops_idle_nw_v7.gif",
+         "date": "2026-10-30",
+         "note": "Idle final [ex-Ogre]"
+        }
+       ]
       },
       "move_se": {
        "status": "pending",
@@ -931,8 +1061,26 @@
         {
          "label": "v1",
          "file": "files/cyclops/cyclops_move_se_v1.gif",
-         "date": "2026-11-01",
-         "note": "Walk front"
+         "date": "2026-10-29",
+         "note": "Walk iteration 1 [ex-Ogre]"
+        },
+        {
+         "label": "v2",
+         "file": "files/cyclops/cyclops_move_se_v2.gif",
+         "date": "2026-10-29",
+         "note": "Walk iteration 2 [ex-Ogre]"
+        },
+        {
+         "label": "v3",
+         "file": "files/cyclops/cyclops_move_se_v3.gif",
+         "date": "2026-10-29",
+         "note": "Walk iteration 3 [ex-Ogre]"
+        },
+        {
+         "label": "v4",
+         "file": "files/cyclops/cyclops_move_se_v4.gif",
+         "date": "2026-10-29",
+         "note": "Walk final [ex-Ogre]"
         }
        ]
       },
@@ -942,8 +1090,8 @@
         {
          "label": "v1",
          "file": "files/cyclops/cyclops_move_nw_v1.gif",
-         "date": "2026-11-01",
-         "note": "Walk back"
+         "date": "2026-10-29",
+         "note": "Back walk [ex-Ogre]"
         }
        ]
       },
@@ -982,8 +1130,8 @@
      }
     },
     {
-     "id": "giant2",
-     "name": "Giant 2",
+     "id": "giant",
+     "name": "Giant",
      "kind": "creature",
      "slots": {
       "portrait": {
@@ -1003,13 +1151,13 @@
        "versions": [
         {
          "label": "v1",
-         "file": "files/giant2/giant2_move_se_v1.gif",
+         "file": "files/giant/giant_move_se_v1.gif",
          "date": "2026-11-02",
          "note": "Walk v1"
         },
         {
          "label": "v2",
-         "file": "files/giant2/giant2_move_se_v2.gif",
+         "file": "files/giant/giant_move_se_v2.gif",
          "date": "2026-11-02",
          "note": "Walk revised"
         }
@@ -1020,92 +1168,13 @@
        "versions": [
         {
          "label": "v1",
-         "file": "files/giant2/giant2_move_nw_v1.gif",
+         "file": "files/giant/giant_move_nw_v1.gif",
          "date": "2026-11-02",
          "note": "Walk v1"
         },
         {
          "label": "v2",
-         "file": "files/giant2/giant2_move_nw_v2.gif",
-         "date": "2026-11-02",
-         "note": "Walk revised"
-        }
-       ]
-      },
-      "hurt_se": {
-       "status": "pending",
-       "versions": []
-      },
-      "hurt_nw": {
-       "status": "pending",
-       "versions": []
-      },
-      "attack_se": {
-       "status": "pending",
-       "versions": []
-      },
-      "attack_nw": {
-       "status": "pending",
-       "versions": []
-      },
-      "cast_se": {
-       "status": "pending",
-       "versions": []
-      },
-      "cast_nw": {
-       "status": "pending",
-       "versions": []
-      },
-      "skill_se": {
-       "status": "pending",
-       "versions": []
-      },
-      "skill_nw": {
-       "status": "pending",
-       "versions": []
-      }
-     }
-    },
-    {
-     "id": "giant3",
-     "name": "Giant 3",
-     "kind": "creature",
-     "slots": {
-      "portrait": {
-       "status": "pending",
-       "versions": []
-      },
-      "idle_se": {
-       "status": "pending",
-       "versions": []
-      },
-      "idle_nw": {
-       "status": "pending",
-       "versions": []
-      },
-      "move_se": {
-       "status": "pending",
-       "versions": [
-        {
-         "label": "v1",
-         "file": "files/giant3/giant3_move_se_v1.gif",
-         "date": "2026-11-02",
-         "note": "Walk"
-        }
-       ]
-      },
-      "move_nw": {
-       "status": "pending",
-       "versions": [
-        {
-         "label": "v1",
-         "file": "files/giant3/giant3_move_nw_v1.gif",
-         "date": "2026-11-02",
-         "note": "Walk v1"
-        },
-        {
-         "label": "v2",
-         "file": "files/giant3/giant3_move_nw_v2.gif",
+         "file": "files/giant/giant_move_nw_v2.gif",
          "date": "2026-11-02",
          "note": "Walk revised"
         }
@@ -1226,183 +1295,6 @@
          "note": "Attack final"
         }
        ]
-      },
-      "attack_nw": {
-       "status": "pending",
-       "versions": []
-      },
-      "cast_se": {
-       "status": "pending",
-       "versions": []
-      },
-      "cast_nw": {
-       "status": "pending",
-       "versions": []
-      },
-      "skill_se": {
-       "status": "pending",
-       "versions": []
-      },
-      "skill_nw": {
-       "status": "pending",
-       "versions": []
-      }
-     }
-    },
-    {
-     "id": "ogre",
-     "name": "Ogre",
-     "kind": "creature",
-     "slots": {
-      "portrait": {
-       "status": "pending",
-       "versions": []
-      },
-      "idle_se": {
-       "status": "pending",
-       "versions": [
-        {
-         "label": "v1",
-         "file": "files/ogre/ogre_idle_se_v1.gif",
-         "date": "2026-10-30",
-         "note": "Idle iteration 1"
-        },
-        {
-         "label": "v2",
-         "file": "files/ogre/ogre_idle_se_v2.gif",
-         "date": "2026-10-30",
-         "note": "Idle iteration 2"
-        },
-        {
-         "label": "v3",
-         "file": "files/ogre/ogre_idle_se_v3.gif",
-         "date": "2026-10-30",
-         "note": "Idle iteration 3"
-        },
-        {
-         "label": "v4",
-         "file": "files/ogre/ogre_idle_se_v4.gif",
-         "date": "2026-10-30",
-         "note": "Idle iteration 4"
-        },
-        {
-         "label": "v5",
-         "file": "files/ogre/ogre_idle_se_v5.gif",
-         "date": "2026-10-30",
-         "note": "Idle iteration 5"
-        },
-        {
-         "label": "v6",
-         "file": "files/ogre/ogre_idle_se_v6.gif",
-         "date": "2026-10-30",
-         "note": "Idle iteration 6"
-        },
-        {
-         "label": "v7",
-         "file": "files/ogre/ogre_idle_se_v7.gif",
-         "date": "2026-10-30",
-         "note": "Idle final"
-        }
-       ]
-      },
-      "idle_nw": {
-       "status": "pending",
-       "versions": [
-        {
-         "label": "v1",
-         "file": "files/ogre/ogre_idle_nw_v1.gif",
-         "date": "2026-10-30",
-         "note": "Idle iteration 1"
-        },
-        {
-         "label": "v2",
-         "file": "files/ogre/ogre_idle_nw_v2.gif",
-         "date": "2026-10-30",
-         "note": "Idle iteration 2"
-        },
-        {
-         "label": "v3",
-         "file": "files/ogre/ogre_idle_nw_v3.gif",
-         "date": "2026-10-30",
-         "note": "Idle iteration 3"
-        },
-        {
-         "label": "v4",
-         "file": "files/ogre/ogre_idle_nw_v4.gif",
-         "date": "2026-10-30",
-         "note": "Idle iteration 4"
-        },
-        {
-         "label": "v5",
-         "file": "files/ogre/ogre_idle_nw_v5.gif",
-         "date": "2026-10-30",
-         "note": "Idle iteration 5"
-        },
-        {
-         "label": "v6",
-         "file": "files/ogre/ogre_idle_nw_v6.gif",
-         "date": "2026-10-30",
-         "note": "Idle iteration 6"
-        },
-        {
-         "label": "v7",
-         "file": "files/ogre/ogre_idle_nw_v7.gif",
-         "date": "2026-10-30",
-         "note": "Idle final"
-        }
-       ]
-      },
-      "move_se": {
-       "status": "pending",
-       "versions": [
-        {
-         "label": "v1",
-         "file": "files/ogre/ogre_move_se_v1.gif",
-         "date": "2026-10-29",
-         "note": "Walk iteration 1"
-        },
-        {
-         "label": "v2",
-         "file": "files/ogre/ogre_move_se_v2.gif",
-         "date": "2026-10-29",
-         "note": "Walk iteration 2"
-        },
-        {
-         "label": "v3",
-         "file": "files/ogre/ogre_move_se_v3.gif",
-         "date": "2026-10-29",
-         "note": "Walk iteration 3"
-        },
-        {
-         "label": "v4",
-         "file": "files/cyclops/cyclops_move_se_v1.gif",
-         "date": "2026-10-29",
-         "note": "Walk final"
-        }
-       ]
-      },
-      "move_nw": {
-       "status": "pending",
-       "versions": [
-        {
-         "label": "v1",
-         "file": "files/cyclops/cyclops_move_nw_v1.gif",
-         "date": "2026-10-29",
-         "note": "Back walk"
-        }
-       ]
-      },
-      "hurt_se": {
-       "status": "pending",
-       "versions": []
-      },
-      "hurt_nw": {
-       "status": "pending",
-       "versions": []
-      },
-      "attack_se": {
-       "status": "pending",
-       "versions": []
       },
       "attack_nw": {
        "status": "pending",
@@ -1573,78 +1465,6 @@
          "note": "Back walk"
         }
        ]
-      },
-      "hurt_se": {
-       "status": "pending",
-       "versions": []
-      },
-      "hurt_nw": {
-       "status": "pending",
-       "versions": []
-      },
-      "attack_se": {
-       "status": "pending",
-       "versions": []
-      },
-      "attack_nw": {
-       "status": "pending",
-       "versions": []
-      },
-      "cast_se": {
-       "status": "pending",
-       "versions": []
-      },
-      "cast_nw": {
-       "status": "pending",
-       "versions": []
-      },
-      "skill_se": {
-       "status": "pending",
-       "versions": []
-      },
-      "skill_nw": {
-       "status": "pending",
-       "versions": []
-      }
-     }
-    },
-    {
-     "id": "brawler",
-     "name": "Brawler",
-     "kind": "character",
-     "slots": {
-      "portrait": {
-       "status": "pending",
-       "versions": []
-      },
-      "idle_se": {
-       "status": "pending",
-       "versions": []
-      },
-      "idle_nw": {
-       "status": "pending",
-       "versions": []
-      },
-      "move_se": {
-       "status": "pending",
-       "versions": [
-        {
-         "label": "v1",
-         "file": "files/brawler/brawler_move_se_v1.gif",
-         "date": "2026-10-30",
-         "note": "Walk v1"
-        },
-        {
-         "label": "v2",
-         "file": "files/brawler/brawler_move_se_v2.gif",
-         "date": "2026-10-30",
-         "note": "Walk revised"
-        }
-       ]
-      },
-      "move_nw": {
-       "status": "pending",
-       "versions": []
       },
       "hurt_se": {
        "status": "pending",
