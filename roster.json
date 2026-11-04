@@ -1,0 +1,2071 @@
+{
+ "project": "Aventail SRPG",
+ "updated": "2026-11-04",
+ "statuses": {
+  "done": "In the game codebase and polished",
+  "partial": "Imported into the codebase, not polished or incomplete",
+  "pending": "Not in the game yet"
+ },
+ "slot_labels": {
+  "portrait": "Avatar portrait",
+  "idle": "Idle",
+  "move": "Move",
+  "hurt": "Hurt",
+  "attack": "Attack",
+  "cast": "Cast Spell",
+  "skill": "Skill"
+ },
+ "categories": [
+  {
+   "id": "characters",
+   "name": "Characters & Creatures",
+   "slots": [
+    "portrait",
+    "idle_se",
+    "idle_nw",
+    "move_se",
+    "move_nw",
+    "hurt_se",
+    "hurt_nw",
+    "attack_se",
+    "attack_nw",
+    "cast_se",
+    "cast_nw",
+    "skill_se",
+    "skill_nw"
+   ],
+   "units": [
+    {
+     "id": "minotaur",
+     "name": "Minotaur",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/minotaur/minotaur_portrait_v1.webp",
+         "date": "2026-11-03",
+         "note": "Portrait draft"
+        }
+       ]
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_se": {
+       "status": "partial",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/minotaur/minotaur_move_se_v1.gif",
+         "date": "2026-11-03",
+         "note": "Walk built on yeti base"
+        },
+        {
+         "label": "v2",
+         "file": "files/minotaur/minotaur_move_se_v2.gif",
+         "date": "2026-11-03",
+         "note": "Walk v2"
+        },
+        {
+         "label": "v3",
+         "file": "files/minotaur/minotaur_move_se_v3.gif",
+         "date": "2026-11-03",
+         "note": "First gallop"
+        },
+        {
+         "label": "v4",
+         "file": "files/minotaur/minotaur_move_se_v4.gif",
+         "date": "2026-11-03",
+         "note": "Hand-drawn gallop"
+        },
+        {
+         "label": "v5",
+         "file": "files/minotaur/minotaur_move_se_v5.gif",
+         "date": "2026-11-03",
+         "note": "Thick-leg gallop"
+        },
+        {
+         "label": "v6",
+         "file": "files/minotaur/minotaur_move_se_v6.gif",
+         "date": "2026-11-03",
+         "note": "Satyr-leg gallop"
+        },
+        {
+         "label": "v7",
+         "file": "files/minotaur/minotaur_move_se_v7.gif",
+         "date": "2026-11-03",
+         "note": "Approved gallop"
+        }
+       ]
+      },
+      "move_nw": {
+       "status": "partial",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/minotaur/minotaur_move_nw_v1.gif",
+         "date": "2026-11-03",
+         "note": "Walk built on yeti base"
+        },
+        {
+         "label": "v2",
+         "file": "files/minotaur/minotaur_move_nw_v2.gif",
+         "date": "2026-11-03",
+         "note": "Walk v2"
+        },
+        {
+         "label": "v3",
+         "file": "files/minotaur/minotaur_move_nw_v3.gif",
+         "date": "2026-11-03",
+         "note": "First gallop"
+        },
+        {
+         "label": "v4",
+         "file": "files/minotaur/minotaur_move_nw_v4.gif",
+         "date": "2026-11-03",
+         "note": "Hand-drawn gallop"
+        },
+        {
+         "label": "v5",
+         "file": "files/minotaur/minotaur_move_nw_v5.gif",
+         "date": "2026-11-03",
+         "note": "Thick-leg gallop"
+        },
+        {
+         "label": "v6",
+         "file": "files/minotaur/minotaur_move_nw_v6.gif",
+         "date": "2026-11-03",
+         "note": "Satyr-leg gallop (approved)"
+        }
+       ]
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "stone_golem",
+     "name": "Stone Golem",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "partial",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/stone_golem/stone_golem_portrait_v1.webp",
+         "date": "2026-11-03",
+         "note": "First portrait"
+        },
+        {
+         "label": "v2",
+         "file": "files/stone_golem/stone_golem_portrait_v2.webp",
+         "date": "2026-11-03",
+         "note": "v2"
+        },
+        {
+         "label": "v3",
+         "file": "files/stone_golem/stone_golem_portrait_v3.webp",
+         "date": "2026-11-03",
+         "note": "v3"
+        },
+        {
+         "label": "v4",
+         "file": "files/stone_golem/stone_golem_portrait_v4.webp",
+         "date": "2026-11-03",
+         "note": "Final, \"this one is perfect\" (approved)"
+        }
+       ]
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_se": {
+       "status": "partial",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/stone_golem/stone_golem_move_se_v1.gif",
+         "date": "2026-11-03",
+         "note": "8-frame walk"
+        },
+        {
+         "label": "v2",
+         "file": "files/stone_golem/stone_golem_move_se_v2.gif",
+         "date": "2026-11-03",
+         "note": "Approved robotic walk, 200/110 ms holds"
+        },
+        {
+         "label": "v3",
+         "file": "files/stone_golem/stone_golem_move_se_v3.gif",
+         "date": "2026-11-03",
+         "note": "Alt: uniform 130 ms (approved)"
+        }
+       ]
+      },
+      "move_nw": {
+       "status": "partial",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/stone_golem/stone_golem_move_nw_v1.gif",
+         "date": "2026-11-03",
+         "note": "8-frame walk"
+        },
+        {
+         "label": "v2",
+         "file": "files/stone_golem/stone_golem_move_nw_v2.gif",
+         "date": "2026-11-03",
+         "note": "Approved robotic walk, 200/110 ms holds"
+        },
+        {
+         "label": "v3",
+         "file": "files/stone_golem/stone_golem_move_nw_v3.gif",
+         "date": "2026-11-03",
+         "note": "Alt: uniform 130 ms (approved)"
+        }
+       ]
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "clay_golem",
+     "name": "Clay Golem",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/clay_golem/clay_golem_portrait_v1.webp",
+         "date": "2026-11-03",
+         "note": "First portrait"
+        },
+        {
+         "label": "v2",
+         "file": "files/clay_golem/clay_golem_portrait_v2.webp",
+         "date": "2026-11-03",
+         "note": "v2"
+        },
+        {
+         "label": "v3",
+         "file": "files/clay_golem/clay_golem_portrait_v3.webp",
+         "date": "2026-11-03",
+         "note": "v3"
+        },
+        {
+         "label": "v4",
+         "file": "files/clay_golem/clay_golem_portrait_v4.webp",
+         "date": "2026-11-03",
+         "note": "v4"
+        },
+        {
+         "label": "v5",
+         "file": "files/clay_golem/clay_golem_portrait_v5.webp",
+         "date": "2026-11-03",
+         "note": "v5"
+        },
+        {
+         "label": "v6",
+         "file": "files/clay_golem/clay_golem_portrait_v6.webp",
+         "date": "2026-11-03",
+         "note": "v6"
+        }
+       ]
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/clay_golem/clay_golem_move_se_v1.gif",
+         "date": "2026-11-03",
+         "note": "Robotic walk"
+        },
+        {
+         "label": "v2",
+         "file": "files/clay_golem/clay_golem_move_se_v2.gif",
+         "date": "2026-11-03",
+         "note": "Alt: uniform 130 ms"
+        }
+       ]
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/clay_golem/clay_golem_move_nw_v1.gif",
+         "date": "2026-11-03",
+         "note": "Robotic walk"
+        },
+        {
+         "label": "v2",
+         "file": "files/clay_golem/clay_golem_move_nw_v2.gif",
+         "date": "2026-11-03",
+         "note": "Alt: uniform 130 ms"
+        }
+       ]
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "merfolk",
+     "name": "Merfolk",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/merfolk/merfolk_portrait_v1.webp",
+         "date": "2026-11-03",
+         "note": "First attempt"
+        },
+        {
+         "label": "v2",
+         "file": "files/merfolk/merfolk_portrait_v2.webp",
+         "date": "2026-11-03",
+         "note": "Tight bust, trident"
+        },
+        {
+         "label": "v3",
+         "file": "files/merfolk/merfolk_portrait_v3.webp",
+         "date": "2026-11-03",
+         "note": "Prominent jaw, closed mouth"
+        },
+        {
+         "label": "v4",
+         "file": "files/merfolk/merfolk_portrait_v4.webp",
+         "date": "2026-11-03",
+         "note": "No weapon, lower camera"
+        },
+        {
+         "label": "v5",
+         "file": "files/merfolk/merfolk_portrait_v5.webp",
+         "date": "2026-11-03",
+         "note": "Elongated snout (too much)"
+        },
+        {
+         "label": "v6",
+         "file": "files/merfolk/merfolk_portrait_v6.webp",
+         "date": "2026-11-03",
+         "note": "Lower jaw protruding"
+        },
+        {
+         "label": "v7",
+         "file": "files/merfolk/merfolk_portrait_v7.webp",
+         "date": "2026-11-03",
+         "note": "Angler mouth, attack pose"
+        },
+        {
+         "label": "v8",
+         "file": "files/merfolk/merfolk_portrait_v8.webp",
+         "date": "2026-11-03",
+         "note": "Angler mouth, attack pose refined"
+        },
+        {
+         "label": "v9",
+         "file": "files/merfolk/merfolk_portrait_v9.webp",
+         "date": "2026-11-03",
+         "note": "Restored eye and brow"
+        },
+        {
+         "label": "v10",
+         "file": "files/merfolk/merfolk_portrait_v10.webp",
+         "date": "2026-11-03",
+         "note": "From user jowl edit"
+        },
+        {
+         "label": "v11",
+         "file": "files/merfolk/merfolk_portrait_v11.webp",
+         "date": "2026-11-03",
+         "note": "Lower jaw redrawn"
+        },
+        {
+         "label": "v12",
+         "file": "files/merfolk/merfolk_portrait_v12.webp",
+         "date": "2026-11-03",
+         "note": "Dorsal fin down the back"
+        },
+        {
+         "label": "v13",
+         "file": "files/merfolk/merfolk_portrait_v13.webp",
+         "date": "2026-11-03",
+         "note": "Broader shoulders"
+        },
+        {
+         "label": "v2b",
+         "file": "files/merfolk/merfolk_portrait_v2b.webp",
+         "date": "2026-11-04",
+         "note": "Branch of v2: no weapon, leaning right"
+        }
+       ]
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_se": {
+       "status": "partial",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/merfolk/merfolk_move_se_v1.gif",
+         "date": "2026-11-03",
+         "note": "Slender slither"
+        },
+        {
+         "label": "v2",
+         "file": "files/merfolk/merfolk_move_se_v2.gif",
+         "date": "2026-11-03",
+         "note": "Curled slither (approved)"
+        },
+        {
+         "label": "v3",
+         "file": "files/merfolk/merfolk_move_se_v3.gif",
+         "date": "2026-11-03",
+         "note": "Twist slither from user reference"
+        }
+       ]
+      },
+      "move_nw": {
+       "status": "partial",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/merfolk/merfolk_move_nw_v1.gif",
+         "date": "2026-11-03",
+         "note": "Slender slither"
+        },
+        {
+         "label": "v2",
+         "file": "files/merfolk/merfolk_move_nw_v2.gif",
+         "date": "2026-11-03",
+         "note": "Curled slither (approved)"
+        },
+        {
+         "label": "v3",
+         "file": "files/merfolk/merfolk_move_nw_v3.gif",
+         "date": "2026-11-03",
+         "note": "Twist slither from user reference"
+        }
+       ]
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "titan",
+     "name": "Titan",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/titan/titan_move_se_v1.gif",
+         "date": "2026-11-02",
+         "note": "SE walk used as reference"
+        }
+       ]
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/titan/titan_move_nw_v1.gif",
+         "date": "2026-11-02",
+         "note": "NW walk"
+        },
+        {
+         "label": "v2",
+         "file": "files/titan/titan_move_nw_v2.gif",
+         "date": "2026-11-02",
+         "note": "NW walk revised"
+        },
+        {
+         "label": "v3",
+         "file": "files/titan/titan_move_nw_v3.gif",
+         "date": "2026-11-02",
+         "note": "User-finished NW walk"
+        }
+       ]
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "partial",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/titan/titan_attack_se_v1.gif",
+         "date": "2026-10-30",
+         "note": "Punch iteration 1"
+        },
+        {
+         "label": "v2",
+         "file": "files/titan/titan_attack_se_v2.gif",
+         "date": "2026-10-30",
+         "note": "Punch iteration 2"
+        },
+        {
+         "label": "v3",
+         "file": "files/titan/titan_attack_se_v3.gif",
+         "date": "2026-10-30",
+         "note": "Punch iteration 3"
+        },
+        {
+         "label": "v4",
+         "file": "files/titan/titan_attack_se_v4.gif",
+         "date": "2026-10-30",
+         "note": "Punch iteration 4"
+        },
+        {
+         "label": "v5",
+         "file": "files/titan/titan_attack_se_v5.gif",
+         "date": "2026-10-30",
+         "note": "Punch iteration 5"
+        },
+        {
+         "label": "v6",
+         "file": "files/titan/titan_attack_se_v6.gif",
+         "date": "2026-10-30",
+         "note": "Punch iteration 6"
+        },
+        {
+         "label": "v7",
+         "file": "files/titan/titan_attack_se_v7.gif",
+         "date": "2026-10-30",
+         "note": "Punch final (approved)"
+        }
+       ]
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/titan/titan_attack_nw_v1.gif",
+         "date": "2026-10-31",
+         "note": "Back punch"
+        }
+       ]
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "yeti",
+     "name": "Yeti",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "partial",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/yeti/yeti_portrait_v1.jpg",
+         "date": "2026-11-02",
+         "note": "Approved portrait"
+        }
+       ]
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "gryphon",
+     "name": "Gryphon",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/gryphon/gryphon_idle_se_v1.gif",
+         "date": "2026-10-30",
+         "note": "Idle"
+        }
+       ]
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/gryphon/gryphon_idle_nw_v1.gif",
+         "date": "2026-10-30",
+         "note": "Idle, top-left facing"
+        }
+       ]
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/gryphon/gryphon_attack_se_v1.gif",
+         "date": "2026-10-30",
+         "note": "Attack"
+        }
+       ]
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/gryphon/gryphon_attack_nw_v1.gif",
+         "date": "2026-10-30",
+         "note": "Attack, top-left facing"
+        }
+       ]
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "cyclops",
+     "name": "Cyclops",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/cyclops/cyclops_portrait_v1.webp",
+         "date": "2026-11-02",
+         "note": "Portrait draft v4"
+        },
+        {
+         "label": "v2",
+         "file": "files/cyclops/cyclops_portrait_v2.webp",
+         "date": "2026-11-02",
+         "note": "Portrait draft v8"
+        }
+       ]
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/cyclops/cyclops_move_se_v1.gif",
+         "date": "2026-11-01",
+         "note": "Walk front"
+        }
+       ]
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/cyclops/cyclops_move_nw_v1.gif",
+         "date": "2026-11-01",
+         "note": "Walk back"
+        }
+       ]
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "giant2",
+     "name": "Giant 2",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/giant2/giant2_move_se_v1.gif",
+         "date": "2026-11-02",
+         "note": "Walk v1"
+        },
+        {
+         "label": "v2",
+         "file": "files/giant2/giant2_move_se_v2.gif",
+         "date": "2026-11-02",
+         "note": "Walk revised"
+        }
+       ]
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/giant2/giant2_move_nw_v1.gif",
+         "date": "2026-11-02",
+         "note": "Walk v1"
+        },
+        {
+         "label": "v2",
+         "file": "files/giant2/giant2_move_nw_v2.gif",
+         "date": "2026-11-02",
+         "note": "Walk revised"
+        }
+       ]
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "giant3",
+     "name": "Giant 3",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/giant3/giant3_move_se_v1.gif",
+         "date": "2026-11-02",
+         "note": "Walk"
+        }
+       ]
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/giant3/giant3_move_nw_v1.gif",
+         "date": "2026-11-02",
+         "note": "Walk v1"
+        },
+        {
+         "label": "v2",
+         "file": "files/giant3/giant3_move_nw_v2.gif",
+         "date": "2026-11-02",
+         "note": "Walk revised"
+        }
+       ]
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "centaur",
+     "name": "Centaur",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/centaur/centaur_move_se_v1.gif",
+         "date": "2026-11-01",
+         "note": "Walk"
+        },
+        {
+         "label": "v2",
+         "file": "files/centaur/centaur_move_se_v2.gif",
+         "date": "2026-11-01",
+         "note": "Run v3"
+        }
+       ]
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/centaur/centaur_move_nw_v1.gif",
+         "date": "2026-11-01",
+         "note": "Back walk"
+        }
+       ]
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/centaur/centaur_attack_se_v1.gif",
+         "date": "2026-10-29",
+         "note": "Attack iteration 1"
+        },
+        {
+         "label": "v2",
+         "file": "files/centaur/centaur_attack_se_v2.gif",
+         "date": "2026-10-29",
+         "note": "Attack iteration 2"
+        },
+        {
+         "label": "v3",
+         "file": "files/centaur/centaur_attack_se_v3.gif",
+         "date": "2026-10-29",
+         "note": "Attack iteration 3"
+        },
+        {
+         "label": "v4",
+         "file": "files/centaur/centaur_attack_se_v4.gif",
+         "date": "2026-10-29",
+         "note": "Attack final"
+        }
+       ]
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "ogre",
+     "name": "Ogre",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/ogre/ogre_idle_se_v1.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 1"
+        },
+        {
+         "label": "v2",
+         "file": "files/ogre/ogre_idle_se_v2.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 2"
+        },
+        {
+         "label": "v3",
+         "file": "files/ogre/ogre_idle_se_v3.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 3"
+        },
+        {
+         "label": "v4",
+         "file": "files/ogre/ogre_idle_se_v4.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 4"
+        },
+        {
+         "label": "v5",
+         "file": "files/ogre/ogre_idle_se_v5.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 5"
+        },
+        {
+         "label": "v6",
+         "file": "files/ogre/ogre_idle_se_v6.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 6"
+        },
+        {
+         "label": "v7",
+         "file": "files/ogre/ogre_idle_se_v7.gif",
+         "date": "2026-10-30",
+         "note": "Idle final"
+        }
+       ]
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/ogre/ogre_idle_nw_v1.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 1"
+        },
+        {
+         "label": "v2",
+         "file": "files/ogre/ogre_idle_nw_v2.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 2"
+        },
+        {
+         "label": "v3",
+         "file": "files/ogre/ogre_idle_nw_v3.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 3"
+        },
+        {
+         "label": "v4",
+         "file": "files/ogre/ogre_idle_nw_v4.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 4"
+        },
+        {
+         "label": "v5",
+         "file": "files/ogre/ogre_idle_nw_v5.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 5"
+        },
+        {
+         "label": "v6",
+         "file": "files/ogre/ogre_idle_nw_v6.gif",
+         "date": "2026-10-30",
+         "note": "Idle iteration 6"
+        },
+        {
+         "label": "v7",
+         "file": "files/ogre/ogre_idle_nw_v7.gif",
+         "date": "2026-10-30",
+         "note": "Idle final"
+        }
+       ]
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/ogre/ogre_move_se_v1.gif",
+         "date": "2026-10-29",
+         "note": "Walk iteration 1"
+        },
+        {
+         "label": "v2",
+         "file": "files/ogre/ogre_move_se_v2.gif",
+         "date": "2026-10-29",
+         "note": "Walk iteration 2"
+        },
+        {
+         "label": "v3",
+         "file": "files/ogre/ogre_move_se_v3.gif",
+         "date": "2026-10-29",
+         "note": "Walk iteration 3"
+        },
+        {
+         "label": "v4",
+         "file": "files/cyclops/cyclops_move_se_v1.gif",
+         "date": "2026-10-29",
+         "note": "Walk final"
+        }
+       ]
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/cyclops/cyclops_move_nw_v1.gif",
+         "date": "2026-10-29",
+         "note": "Back walk"
+        }
+       ]
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "satyr",
+     "name": "Satyr",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/satyr/satyr_move_se_v1.gif",
+         "date": "2026-11-01",
+         "note": "Gallop v1"
+        },
+        {
+         "label": "v2",
+         "file": "files/satyr/satyr_move_se_v2.gif",
+         "date": "2026-11-01",
+         "note": "Gallop revised"
+        },
+        {
+         "label": "v3",
+         "file": "files/satyr/satyr_move_se_v3.gif",
+         "date": "2026-11-01",
+         "note": "User reference gallop"
+        },
+        {
+         "label": "v4",
+         "file": "files/satyr/satyr_move_se_v4.gif",
+         "date": "2026-11-01",
+         "note": "Front gallop (back set)"
+        }
+       ]
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/satyr/satyr_move_nw_v1.gif",
+         "date": "2026-11-01",
+         "note": "Back gallop v1"
+        },
+        {
+         "label": "v2",
+         "file": "files/satyr/satyr_move_nw_v2.gif",
+         "date": "2026-11-01",
+         "note": "Back gallop revised"
+        }
+       ]
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "scorpion",
+     "name": "Scorpion",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/scorpion/scorpion_move_se_v1.gif",
+         "date": "2026-10-29",
+         "note": "Walk v1"
+        },
+        {
+         "label": "v2",
+         "file": "files/scorpion/scorpion_move_se_v2.gif",
+         "date": "2026-10-29",
+         "note": "Walk v2"
+        },
+        {
+         "label": "v3",
+         "file": "files/scorpion/scorpion_move_se_v3.gif",
+         "date": "2026-10-29",
+         "note": "Walk final"
+        }
+       ]
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/scorpion/scorpion_move_nw_v1.gif",
+         "date": "2026-10-29",
+         "note": "Back walk"
+        }
+       ]
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "brawler",
+     "name": "Brawler",
+     "kind": "character",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/brawler/brawler_move_se_v1.gif",
+         "date": "2026-10-30",
+         "note": "Walk v1"
+        },
+        {
+         "label": "v2",
+         "file": "files/brawler/brawler_move_se_v2.gif",
+         "date": "2026-10-30",
+         "note": "Walk revised"
+        }
+       ]
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "mage",
+     "name": "Mage",
+     "kind": "character",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/mage/mage_cast_se_v1.gif",
+         "date": "2026-11-04",
+         "note": "Cast spell (v5)"
+        }
+       ]
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "dark_knight",
+     "name": "Dark Knight",
+     "kind": "character",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/dark_knight/dark_knight_attack_se_v1.gif",
+         "date": "2026-11-04",
+         "note": "Attack (v5)"
+        }
+       ]
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "fur_cape",
+     "name": "Fur-Cape Fighter",
+     "kind": "character",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/fur_cape/fur_cape_idle_nw_v1.gif",
+         "date": "2026-10-29",
+         "note": "Back view v1"
+        },
+        {
+         "label": "v2",
+         "file": "files/fur_cape/fur_cape_idle_nw_v2.gif",
+         "date": "2026-10-29",
+         "note": "Back view revised"
+        }
+       ]
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "goblin",
+     "name": "Goblin",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/goblin/goblin_idle_se_v1.png",
+         "date": "2026-10-30",
+         "note": "Gear pass (rejected)"
+        },
+        {
+         "label": "v2",
+         "file": "files/goblin/goblin_idle_se_v2.png",
+         "date": "2026-10-30",
+         "note": "Improved gear"
+        }
+       ]
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/goblin/goblin_idle_nw_v1.png",
+         "date": "2026-10-30",
+         "note": "Mirror back"
+        },
+        {
+         "label": "v2",
+         "file": "files/goblin/goblin_idle_nw_v2.png",
+         "date": "2026-10-30",
+         "note": "3D proxy back"
+        },
+        {
+         "label": "v3",
+         "file": "files/goblin/goblin_idle_nw_v3.png",
+         "date": "2026-10-30",
+         "note": "3D back v2"
+        },
+        {
+         "label": "v4",
+         "file": "files/goblin/goblin_idle_nw_v4.png",
+         "date": "2026-10-30",
+         "note": "3D back v3"
+        },
+        {
+         "label": "v5",
+         "file": "files/goblin/goblin_idle_nw_v5.png",
+         "date": "2026-10-30",
+         "note": "3D back v4"
+        }
+       ]
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "squire",
+     "name": "Squire",
+     "kind": "character",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/squire/squire_idle_nw_v1.png",
+         "date": "2026-10-29",
+         "note": "Back v1"
+        },
+        {
+         "label": "v2",
+         "file": "files/squire/squire_idle_nw_v2.png",
+         "date": "2026-10-29",
+         "note": "Back v2"
+        },
+        {
+         "label": "v3",
+         "file": "files/squire/squire_idle_nw_v3.png",
+         "date": "2026-10-29",
+         "note": "Back final"
+        }
+       ]
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
