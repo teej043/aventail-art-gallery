@@ -748,6 +748,146 @@
     160,
     160
    ]
+  },
+  {
+   "name": "scorpion_walk_front",
+   "type": "animation",
+   "source": "/workspace/scorpion_walk/walk.gif",
+   "status": "pending",
+   "frames": 6,
+   "frame_size": "60x60",
+   "file": "gallery/files/P_scorpion_walk_front.gif",
+   "notes": "final (newest, after v2)"
+  },
+  {
+   "name": "scorpion_walk_back",
+   "type": "animation",
+   "source": "/workspace/scorpion_walk_back/walk.gif",
+   "status": "pending",
+   "frames": 6,
+   "frame_size": "60x60",
+   "file": "gallery/files/P_scorpion_walk_back.gif",
+   "notes": "final"
+  },
+  {
+   "name": "centaur_attack",
+   "type": "animation",
+   "source": "/workspace/centaur_attack/attack.gif",
+   "status": "pending",
+   "frames": 6,
+   "frame_size": "68x62",
+   "file": "gallery/files/P_centaur_attack.gif",
+   "notes": "final (newest, after v3)"
+  },
+  {
+   "name": "centaur_run",
+   "type": "animation",
+   "source": "/workspace/centaur_run/v3/centaur_run_1x.gif",
+   "status": "pending",
+   "frames": 6,
+   "frame_size": "58x58",
+   "file": "gallery/files/P_centaur_run.gif",
+   "notes": "v3 1x"
+  },
+  {
+   "name": "centaur_walk_se",
+   "type": "animation",
+   "source": "/workspace/centaur_back_walk/centaur_se_walk.gif",
+   "status": "pending",
+   "frames": 6,
+   "frame_size": "58x62",
+   "file": "gallery/files/P_centaur_walk_se.gif",
+   "notes": "final"
+  },
+  {
+   "name": "centaur_walk_nw_backwalk",
+   "type": "animation",
+   "source": "/workspace/centaur_back_walk/centaur_nw_walk_1x.gif",
+   "status": "pending",
+   "frames": 6,
+   "frame_size": "58x62",
+   "file": "gallery/files/P_centaur_walk_nw_backwalk.gif",
+   "notes": "final"
+  },
+  {
+   "name": "darkknight_attack",
+   "type": "animation",
+   "source": "/workspace/dark_knight_attack/v5/frame_1..9.png",
+   "status": "pending",
+   "frames": 9,
+   "frame_size": "84x82",
+   "file": "gallery/files/P_darkknight_attack.gif",
+   "notes": "v5, re-exported GMS-safe from frames"
+  },
+  {
+   "name": "mage_cast",
+   "type": "animation",
+   "source": "/workspace/mage_cast/v5/mage_cast_spell_1x.gif",
+   "status": "pending",
+   "frames": 7,
+   "frame_size": "52x72",
+   "file": "gallery/files/P_mage_cast.gif",
+   "notes": "v5 1x"
+  },
+  {
+   "name": "furcape_back",
+   "type": "animation",
+   "source": "/workspace/furcape_back/back.gif",
+   "status": "pending",
+   "frames": 7,
+   "frame_size": "70x70",
+   "file": "gallery/files/P_furcape_back.gif",
+   "notes": "final"
+  },
+  {
+   "name": "ogre_walk_front",
+   "type": "animation",
+   "source": "/workspace/ogre_walk/walk.gif",
+   "status": "pending",
+   "frames": 6,
+   "frame_size": "76x76",
+   "file": "gallery/files/P_ogre_walk_front.gif",
+   "notes": "final (newest, after v3)"
+  },
+  {
+   "name": "ogre_walk_back",
+   "type": "animation",
+   "source": "/workspace/ogre_walk_back/walk.gif",
+   "status": "pending",
+   "frames": 6,
+   "frame_size": "76x76",
+   "file": "gallery/files/P_ogre_walk_back.gif",
+   "notes": "final"
+  },
+  {
+   "name": "goblin_back",
+   "type": "still",
+   "source": "/workspace/goblin_back/goblin_back_3d_v4.png",
+   "status": "pending",
+   "frames": 1,
+   "frame_size": "64x64",
+   "file": "gallery/files/P_goblin_back.png",
+   "notes": "v4 static PNG, no GIF"
+  },
+  {
+   "name": "goblin_improve",
+   "type": "still",
+   "source": "/workspace/goblin_improve/goblin_gear.png",
+   "status": "pending",
+   "frames": 1,
+   "frame_size": "64x64",
+   "file": "gallery/files/P_goblin_improve.png",
+   "notes": "static PNG, no GIF"
+  },
+  {
+   "name": "squire_back",
+   "type": "still",
+   "source": "/workspace/squire_back/back.png",
+   "status": "pending",
+   "frames": 1,
+   "frame_size": "52x52",
+   "file": "gallery/files/P_squire_back.png",
+   "notes": "static PNG, no GIF"
   }
  ]
 }
