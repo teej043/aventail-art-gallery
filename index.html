@@ -1,0 +1,61 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aventail SRPG · Art Gallery</title>
+<style>
+:root{--bg:#0f0d14;--panel:#1a1622;--panel2:#231d2e;--line:#3a2f47;--gold:#d9b25f;--text:#e9e1d3;--mute:#9a8fa6;--done:#5fbf6f;--partial:#e0a33c;--pending:#6b6478}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#241a33 0,var(--bg) 60%) fixed;color:var(--text);font:15px/1.45 Georgia,"Palatino Linotype",serif}
+a{color:var(--gold);text-decoration:none}header{padding:22px 28px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+h1{margin:0;font-size:24px;letter-spacing:.06em;color:var(--gold);text-shadow:0 0 12px #d9b25f44}h1 small{color:var(--mute);font-size:13px;letter-spacing:0;margin-left:8px}
+main{padding:22px 28px;max-width:1400px;margin:auto}.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:18px}
+.chip{border:1px solid var(--line);background:var(--panel);color:var(--text);padding:5px 12px;border-radius:999px;cursor:pointer;font:inherit;font-size:13px}.chip.on{border-color:var(--gold);color:var(--gold)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+.card{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:10px;overflow:hidden;color:var(--text);transition:.15s}.card:hover{border-color:var(--gold);transform:translateY(-2px)}
+.thumb{height:170px;display:flex;align-items:center;justify-content:center;background:#0b0a10 repeating-conic-gradient(#14111b 0 25%,#0b0a10 0 50%) 0 0/16px 16px}.thumb img{max-width:100%;max-height:100%;image-rendering:pixelated}.thumb .ph{color:var(--mute);font-size:40px}
+.cb{padding:10px 12px}.cn{display:flex;justify-content:space-between;align-items:center;gap:8px}.cn b{font-size:16px}.kind{color:var(--mute);font-size:12px;text-transform:capitalize}
+.badge{font:600 11px system-ui,sans-serif;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:4px;color:#111}.b-done{background:var(--done)}.b-partial{background:var(--partial)}.b-pending{background:var(--pending);color:#eee}
+.dots{display:flex;gap:4px;margin-top:8px}.dot{width:12px;height:12px;border-radius:3px;background:var(--pending);opacity:.45}.dot.has{opacity:1}.dot.done{background:var(--done);opacity:1}.dot.partial{background:var(--partial);opacity:1}.dot.sep{margin-left:4px}
+.legend{color:var(--mute);font-size:12px;margin-left:auto}.legend span{margin-left:10px}.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:-1px}
+.slots{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}.slot{background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}.slot.empty{opacity:.55}
+.sh{display:flex;justify-content:space-between;align-items:center;padding:9px 12px;border-bottom:1px solid var(--line)}.sh b{color:var(--gold);font-weight:normal;letter-spacing:.04em}
+.view{height:260px;display:flex;align-items:center;justify-content:center;background:#0b0a10 repeating-conic-gradient(#14111b 0 25%,#0b0a10 0 50%) 0 0/16px 16px;overflow:hidden}.view img{image-rendering:pixelated}.view a{display:contents}
+.meta{padding:8px 12px;font-size:13px;color:var(--mute);min-height:40px}.meta b{color:var(--text)}
+.steps{display:flex;gap:4px;flex-wrap:wrap;padding:0 12px 12px;align-items:center}.steps button{font:12px system-ui,sans-serif;background:var(--panel2);border:1px solid var(--line);color:var(--text);border-radius:4px;padding:3px 7px;cursor:pointer}.steps button.on{border-color:var(--gold);color:var(--gold)}
+.back{display:inline-block;margin-bottom:12px}.uh{display:flex;align-items:center;gap:14px;margin-bottom:18px}.uh h2{margin:0;font-size:28px}
+.stat{color:var(--mute);font-size:13px}footer{color:var(--mute);font-size:12px;text-align:center;padding:30px}
+</style></head><body>
+<header><h1>⚔ Aventail SRPG <small>Art Gallery</small></h1><div class="legend"><span><i style="background:var(--done)"></i>Done: in game, polished</span><span><i style="background:var(--partial)"></i>Partial: in game, not polished</span><span><i style="background:var(--pending)"></i>Pending: not in game</span></div></header>
+<main id="app">Loading…</main><footer id="foot"></footer>
+<script>
+const NAMES={portrait:'Avatar portrait',idle:'Idle',move:'Move',hurt:'Hurt',attack:'Attack',cast:'Cast Spell',skill:'Skill'};
+let R,filter='all';
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function slotName(s){const [a,d]=s.split('_');return NAMES[a]+(d?' · '+d.toUpperCase():'')}
+function unitStatus(u){const v=Object.values(u.slots).map(s=>s.status);if(v.every(x=>x==='done'))return'done';if(v.some(x=>x==='done'||x==='partial'))return'partial';return'pending'}
+const badge=s=>`<span class="badge b-${s}">${s}</span>`;
+const latest=s=>s&&s.versions.length?s.versions[s.versions.length-1]:null;
+function cover(u){const p=latest(u.slots.portrait);if(p)return p.file;for(const k of ['idle_se','move_se','attack_se','cast_se','idle_nw','move_nw','attack_nw']){const v=latest(u.slots[k]);if(v)return v.file}return null}
+function overview(cat){
+ const us=cat.units,cnt={all:us.length,done:0,partial:0,pending:0};us.forEach(u=>cnt[unitStatus(u)]++);
+ let h=`<div class="bar">${['all','done','partial','pending'].map(f=>`<button class="chip ${filter===f?'on':''}" data-f="${f}">${f[0].toUpperCase()+f.slice(1)} (${cnt[f]})</button>`).join('')}<span class="stat" style="margin-left:auto">${esc(cat.name)}</span></div><div class="grid">`;
+ for(const u of us){const st=unitStatus(u);if(filter!=='all'&&filter!==st)continue;const c=cover(u);
+  const dots=cat.slots.map((s,i)=>{const sl=u.slots[s];return`<span class="dot ${sl.status} ${sl.versions.length?'has':''} ${i%2&&i>0?'':'sep'}" title="${slotName(s)}: ${sl.status}${sl.versions.length?' · '+sl.versions.length+' version(s)':' · no art yet'}"></span>`}).join('');
+  h+=`<a class="card" href="#/${cat.id}/${u.id}"><div class="thumb">${c?`<img src="${esc(c)}" loading="lazy" alt="">`:'<span class="ph">?</span>'}</div><div class="cb"><div class="cn"><b>${esc(u.name)}</b>${badge(st)}</div><div class="kind">${esc(u.kind)}</div><div class="dots">${dots}</div></div></a>`}
+ return h+'</div>';
+}
+function unitPage(cat,u){
+ let h=`<a class="back" href="#/">← All units</a><div class="uh"><h2>${esc(u.name)}</h2>${badge(unitStatus(u))}<span class="kind">${esc(u.kind)}</span></div><div class="slots">`;
+ for(const s of cat.slots){const sl=u.slots[s],n=sl.versions.length;
+  h+=`<div class="slot ${n?'':'empty'}" data-slot="${s}"><div class="sh"><b>${slotName(s)}</b>${badge(sl.status)}</div><div class="view">${n?'':'<span class="stat">No art yet</span>'}</div><div class="meta"></div>${n?`<div class="steps">${n>1?'<button data-d="-1">‹</button>':''}${sl.versions.map((v,i)=>`<button data-i="${i}">${esc(v.label)}</button>`).join('')}${n>1?'<button data-d="1">›</button>':''}</div>`:''}</div>`}
+ h+='</div>';app.innerHTML=h;
+ app.querySelectorAll('.slot').forEach(el=>{const sl=u.slots[el.dataset.slot];if(!sl.versions.length)return;let cur=sl.versions.length-1;
+  const show=i=>{cur=(i+sl.versions.length)%sl.versions.length;const v=sl.versions[cur],view=el.querySelector('.view');
+   view.innerHTML=`<a href="${esc(v.file)}" target="_blank"><img src="${esc(v.file)}" alt=""></a>`;const img=view.querySelector('img');
+   img.onload=()=>{const W=view.clientWidth-16,H=view.clientHeight-16,w=img.naturalWidth,hh=img.naturalHeight;let sc=Math.min(W/w,H/hh);if(sc>=1)sc=Math.max(1,Math.min(4,Math.floor(sc)));img.style.width=w*sc+'px';img.style.height=hh*sc+'px';if(sc<1)img.style.imageRendering='auto'};
+   el.querySelector('.meta').innerHTML=`<b>${esc(v.label)}</b> · ${esc(v.date)} · ${cur+1}/${sl.versions.length}${cur===sl.versions.length-1?' (latest)':''}<br>${esc(v.note)}`;
+   el.querySelectorAll('[data-i]').forEach(b=>b.classList.toggle('on',+b.dataset.i===cur))};
+  el.querySelectorAll('[data-i]').forEach(b=>b.onclick=()=>show(+b.dataset.i));el.querySelectorAll('[data-d]').forEach(b=>b.onclick=()=>show(cur+ +b.dataset.d));show(cur)});
+}
+function route(){if(!R)return;const [,cid,uid]=location.hash.replace(/^#/,'').split('/');const cat=R.categories.find(c=>c.id===cid)||R.categories[0];
+ const u=uid&&cat.units.find(x=>x.id===uid);if(u){unitPage(cat,u);scrollTo(0,0)}else{app.innerHTML=R.categories.map(overview).join('');app.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>{filter=b.dataset.f;route()})}}
+fetch('roster.json',{cache:'no-cache'}).then(r=>r.json()).then(j=>{R=j;foot.textContent=`${j.project} · roster updated ${j.updated}`;route()}).catch(e=>app.textContent='Could not load roster.json: '+e);
+addEventListener('hashchange',route);
+</script></body></html>
