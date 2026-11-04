@@ -2183,6 +2183,348 @@
      }
     },
     {
+     "id": "demon",
+     "name": "Demon",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "partial",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/demon/demon_portrait_v1.webp",
+         "date": "2026-11-04",
+         "note": "Bob hair, turtleneck, claw raised"
+        },
+        {
+         "label": "v2",
+         "file": "files/demon/demon_portrait_v2.webp",
+         "date": "2026-11-04",
+         "note": "Messy hair, wings spread, wrap top"
+        },
+        {
+         "label": "v3",
+         "file": "files/demon/demon_portrait_v3.webp",
+         "date": "2026-11-04",
+         "note": "Over-shoulder, pink flame"
+        },
+        {
+         "label": "v4",
+         "file": "files/demon/demon_portrait_v4.webp",
+         "date": "2026-11-04",
+         "note": "alt2 pose + v1 turtleneck, gaze off-frame right, heavier ink"
+        },
+        {
+         "label": "v5",
+         "file": "files/demon/demon_portrait_v5.webp",
+         "date": "2026-11-04",
+         "note": "Face turned right, VS-screen stare-down"
+        },
+        {
+         "label": "v6",
+         "file": "files/demon/demon_portrait_v6.webp",
+         "date": "2026-11-04",
+         "note": "True side profile facing right, eye straight ahead (user approved)"
+        }
+       ]
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "harpy",
+     "name": "Harpy",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/harpy/harpy_portrait_v1.webp",
+         "date": "2026-11-04",
+         "note": "Side profile right, feather-crest hair, feathered wings, snarl"
+        },
+        {
+         "label": "v2",
+         "file": "files/harpy/harpy_portrait_v2.webp",
+         "date": "2026-11-04",
+         "note": "Side profile right, feather hair tufts, leathery wing, snarl"
+        },
+        {
+         "label": "v3",
+         "file": "files/harpy/harpy_portrait_v3.webp",
+         "date": "2026-11-04",
+         "note": "Lunging at enemy right, wings flared, yellow talons, three-quarter glare"
+        },
+        {
+         "label": "v4",
+         "file": "files/harpy/harpy_portrait_v4.webp",
+         "date": "2026-11-04",
+         "note": "Armless: wings at shoulders, lunge right, snarl"
+        },
+        {
+         "label": "v5",
+         "file": "files/harpy/harpy_portrait_v5.webp",
+         "date": "2026-11-04",
+         "note": "Arm-wings: wings extend from both shoulders in place of arms"
+        },
+        {
+         "label": "v6",
+         "file": "files/harpy/harpy_portrait_v6.webp",
+         "date": "2026-11-04",
+         "note": "Larger arm-wings: huge span flaring wide and up"
+        },
+        {
+         "label": "v7",
+         "file": "files/harpy/harpy_portrait_v7.webp",
+         "date": "2026-11-04",
+         "note": "v6 zoomed in on head and shoulders"
+        }
+       ]
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "sphinx",
+     "name": "Sphinx",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "partial",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/sphinx/sphinx_portrait_v1.webp",
+         "date": "2026-11-04",
+         "note": "Three-quarter lunge, claws raised, plain pointed gold crown, eyes right (user approved)"
+        },
+        {
+         "label": "v2",
+         "file": "files/sphinx/sphinx_portrait_v2.webp",
+         "date": "2026-11-04",
+         "note": "Side profile right, roaring, paw strike, plain gold band crown (alternate, not picked)"
+        }
+       ]
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "direwolf",
+     "name": "Direwolf",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/direwolf/direwolf_portrait_v1.webp",
+         "date": "2026-11-04",
+         "note": "Side profile right, jaws open mid-lunge, drool, yellow eye ahead"
+        },
+        {
+         "label": "v2",
+         "file": "files/direwolf/direwolf_portrait_v2.webp",
+         "date": "2026-11-04",
+         "note": "Three-quarter right, snarl, glowing eyes toward enemy"
+        }
+       ]
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
      "id": "bullfrog",
      "name": "Bullfrog",
      "kind": "creature",
