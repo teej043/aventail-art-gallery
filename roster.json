@@ -1,6 +1,6 @@
 {
  "project": "Aventail SRPG",
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "statuses": {
   "done": "In the game codebase and polished",
   "partial": "Imported into the codebase, not polished or incomplete",
@@ -2058,6 +2058,12 @@
          "file": "files/ghoul/ghoul_idle_se_v6.gif",
          "date": "2026-11-04",
          "note": "Rigid-hinge knee bend (straight shin from planted ankle), 4x200 ms"
+        },
+        {
+         "label": "v7",
+         "file": "files/ghoul/ghoul_idle_se_v7.gif",
+         "date": "2026-11-05",
+         "note": "User update: more hunched/drooped head, 4 unique frames (no ping-pong), 4x200 ms"
         }
        ]
       },
@@ -2099,6 +2105,12 @@
          "file": "files/ghoul/ghoul_idle_nw_v6.gif",
          "date": "2026-11-04",
          "note": "Rigid-hinge knee bend (straight shin from planted ankle), 4x200 ms"
+        },
+        {
+         "label": "v7",
+         "file": "files/ghoul/ghoul_idle_nw_v7.gif",
+         "date": "2026-11-05",
+         "note": "User update: more hunched/drooped head, 4 unique frames (no ping-pong), 4x200 ms"
         }
        ]
       },
@@ -2122,6 +2134,12 @@
          "file": "files/ghoul/ghoul_move_se_v3.gif",
          "date": "2026-11-04",
          "note": "Rigid undistorted head"
+        },
+        {
+         "label": "v4",
+         "file": "files/ghoul/ghoul_move_se_v4.gif",
+         "date": "2026-11-05",
+         "note": "User update: small head polish to match hunched idle, 6f x 110 ms"
         }
        ]
       },
@@ -2464,13 +2482,243 @@
          "label": "v1",
          "file": "files/direwolf/direwolf_portrait_v1.webp",
          "date": "2026-11-04",
-         "note": "Side profile right, jaws open mid-lunge, drool, yellow eye ahead"
+         "note": "Side profile right, jaws open mid-lunge, drool, yellow eye ahead (user approved)"
         },
         {
          "label": "v2",
          "file": "files/direwolf/direwolf_portrait_v2.webp",
          "date": "2026-11-04",
-         "note": "Three-quarter right, snarl, glowing eyes toward enemy"
+         "note": "Three-quarter right, snarl, glowing eyes toward enemy (alternate, not picked)"
+        }
+       ]
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "cockatrice",
+     "name": "Cockatrice",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/cockatrice/cockatrice_portrait_v1.webp",
+         "date": "2026-11-05",
+         "note": "Three-quarter bust, beak open, wings flared, glaring right"
+        },
+        {
+         "label": "v2",
+         "file": "files/cockatrice/cockatrice_portrait_v2.webp",
+         "date": "2026-11-05",
+         "note": "Near-profile bust facing right, beak closed, raised wing, serpent tail coil"
+        },
+        {
+         "label": "v3",
+         "file": "files/cockatrice/cockatrice_portrait_v3.webp",
+         "date": "2026-11-05",
+         "note": "Mythical redo: scaled serpentine S-neck, jagged crimson crest, beak open with tongue, gold wings flared, eye right"
+        },
+        {
+         "label": "v4",
+         "file": "files/cockatrice/cockatrice_portrait_v4.webp",
+         "date": "2026-11-05",
+         "note": "Mythical redo: rooster-headed wyrm, roaring right, one wing raised, long scaled tail coiled along bottom"
+        },
+        {
+         "label": "v5",
+         "file": "files/cockatrice/cockatrice_portrait_v5.webp",
+         "date": "2026-11-05",
+         "note": "Example-based: roaring fanged beak, spiky horned crimson crest, scaled neck, gold dragon wings spread, tail tip at edge, glaring right"
+        },
+        {
+         "label": "v6",
+         "file": "files/cockatrice/cockatrice_portrait_v6.webp",
+         "date": "2026-11-05",
+         "note": "Example-based: near-profile hiss right, horned crest, scaled serpent neck, one wing raised, thick tail coils along bottom"
+        },
+        {
+         "label": "v7",
+         "file": "files/cockatrice/cockatrice_portrait_v7.webp",
+         "date": "2026-11-05",
+         "note": "No-arms fix of v6: wings are the only upper limbs, smooth serpent chest into tail coil"
+        }
+       ]
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/cockatrice/cockatrice_idle_se_v1.png",
+         "date": "2026-11-05",
+         "note": "Static SE base (rooster-palette recolor)"
+        },
+        {
+         "label": "v2",
+         "file": "files/cockatrice/cockatrice_idle_se_v2.gif",
+         "date": "2026-11-05",
+         "note": "4-frame hover idle, 4x200 ms (wing flap + body bob + tail lag)"
+        },
+        {
+         "label": "v3",
+         "file": "files/cockatrice/cockatrice_idle_se_v3.gif",
+         "date": "2026-11-05",
+         "note": "Idle hip fix: upper legs welded to body, wings no longer tear the hip join"
+        }
+       ]
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/cockatrice/cockatrice_idle_nw_v1.png",
+         "date": "2026-11-05",
+         "note": "Static NW base (rooster-palette recolor)"
+        },
+        {
+         "label": "v2",
+         "file": "files/cockatrice/cockatrice_idle_nw_v2.gif",
+         "date": "2026-11-05",
+         "note": "4-frame hover idle, 4x200 ms (wing flap + body bob + tail lag)"
+        },
+        {
+         "label": "v3",
+         "file": "files/cockatrice/cockatrice_idle_nw_v3.gif",
+         "date": "2026-11-05",
+         "note": "Idle hip fix: upper legs welded to body, wings no longer tear the hip join"
+        },
+        {
+         "label": "v4",
+         "file": "files/cockatrice/cockatrice_idle_nw_v4.gif",
+         "date": "2026-11-05",
+         "note": "NW left-wing flap restored: full gold crescent + stronger warp"
+        },
+        {
+         "label": "v5",
+         "file": "files/cockatrice/cockatrice_idle_nw_v5.gif",
+         "date": "2026-11-05",
+         "note": "NW left wing up-down travel matched to the right wing"
+        }
+       ]
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "dracatrice",
+     "name": "Dracatrice",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/dracatrice/dracatrice_portrait_v1.webp",
+         "date": "2026-11-05",
+         "note": "Rearing three-quarter: steel-blue wyrm neck upright, both gold wings swept up-back, orange flame-horn crest, snarl right, tail along side"
+        },
+        {
+         "label": "v2",
+         "file": "files/dracatrice/dracatrice_portrait_v2.webp",
+         "date": "2026-11-05",
+         "note": "Aerial dive/stoop right: steel-blue neck stretched forward, gold wings swept back, orange crest flattened, eye along beak right"
+        },
+        {
+         "label": "v3",
+         "file": "files/dracatrice/dracatrice_portrait_v3.webp",
+         "date": "2026-11-05",
+         "note": "v1 pose, arms removed: clean steel-blue/gold torso, wings only, orange crest, roar right"
         }
        ]
       },
