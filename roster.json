@@ -2591,6 +2591,12 @@
          "file": "files/cockatrice/cockatrice_portrait_v7.webp",
          "date": "2026-11-05",
          "note": "No-arms fix of v6: wings are the only upper limbs, smooth serpent chest into tail coil"
+        },
+        {
+         "label": "v8",
+         "file": "files/cockatrice/cockatrice_portrait_v8.webp",
+         "date": "2026-11-05",
+         "note": "Feathered-wing fix: raised wing rebuilt as layered gold feather fan, no arms, tail coil kept"
         }
        ]
       },
@@ -2719,6 +2725,12 @@
          "file": "files/dracatrice/dracatrice_portrait_v3.webp",
          "date": "2026-11-05",
          "note": "v1 pose, arms removed: clean steel-blue/gold torso, wings only, orange crest, roar right"
+        },
+        {
+         "label": "v4",
+         "file": "files/dracatrice/dracatrice_portrait_v4.webp",
+         "date": "2026-11-05",
+         "note": "v1 fuller framing restored: lower torso+tail+bird legs, no arms, wings only, roar right"
         }
        ]
       },
