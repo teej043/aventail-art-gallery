@@ -1,6 +1,6 @@
 {
  "project": "Aventail SRPG",
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "statuses": {
   "done": "In the game codebase and polished",
   "partial": "Imported into the codebase, not polished or incomplete",
@@ -2168,11 +2168,25 @@
       },
       "hurt_se": {
        "status": "pending",
-       "versions": []
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/ghoul/ghoul_hurt_se_v1.png",
+         "date": "2026-11-05",
+         "note": "User hurt reaction, single frame"
+        }
+       ]
       },
       "hurt_nw": {
        "status": "pending",
-       "versions": []
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/ghoul/ghoul_hurt_nw_v1.png",
+         "date": "2026-11-05",
+         "note": "User hurt reaction, single frame"
+        }
+       ]
       },
       "attack_se": {
        "status": "pending",
@@ -2597,6 +2611,18 @@
          "file": "files/cockatrice/cockatrice_portrait_v8.webp",
          "date": "2026-11-05",
          "note": "Feathered-wing fix: raised wing rebuilt as layered gold feather fan, no arms, tail coil kept"
+        },
+        {
+         "label": "v9",
+         "file": "files/cockatrice/cockatrice_portrait_v9.webp",
+         "date": "2026-11-05",
+         "note": "Mythical near-profile hiss right, fully feathered bird wing from the shoulder (wings only, no arms), coiled serpent tail"
+        },
+        {
+         "label": "v10",
+         "file": "files/cockatrice/cockatrice_portrait_v10.webp",
+         "date": "2026-11-06",
+         "note": "Liked v9 pose with both wings visible, no arms"
         }
        ]
       },
@@ -2870,6 +2896,204 @@
       "move_nw": {
        "status": "pending",
        "versions": []
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "cleric",
+     "name": "Cleric",
+     "kind": "character",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/cleric/cleric_idle_se_v1.gif",
+         "date": "2026-11-06",
+         "note": "4-frame idle: gentle cape sway/flutter, subtle breath, planted feet and staff, 4x200 ms"
+        }
+       ]
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/cleric/cleric_idle_nw_v1.gif",
+         "date": "2026-11-06",
+         "note": "4-frame idle: gentle cape sway/flutter, subtle breath, planted feet and staff, 4x200 ms"
+        }
+       ]
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/cleric/cleric_cast_nw_v1.gif",
+         "date": "2026-11-06",
+         "note": "7-frame NW cast matching mage_cast/v5 SE (same cleric sprite): rest, raise, peak, thrust, impact, recover; 100/100/100/240/60/70/320 ms"
+        }
+       ]
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "lizardman",
+     "name": "Lizard Man",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/lizardman/lizardman_portrait_v1.webp",
+         "date": "2026-11-06",
+         "note": "Head-and-shoulders action bust, olive scales, pale underside, plain brown strap, grey-headed polearm, gaze off right"
+        },
+        {
+         "label": "v2",
+         "file": "files/lizardman/lizardman_portrait_v2.webp",
+         "date": "2026-11-06",
+         "note": "Open-mouth turn right, leaner bust, single grey axe on dark shaft, pale underside, gaze right"
+        },
+        {
+         "label": "v3",
+         "file": "files/lizardman/lizardman_portrait_v3.webp",
+         "date": "2026-11-06",
+         "note": "Weapon removed"
+        }
+       ]
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/lizardman/lizardman_idle_se_v1.gif",
+         "date": "2026-11-06",
+         "note": "4-frame idle: breathing torso, forward knee hinge, tail sway, planted feet, rigid polearm, 4x200 ms"
+        }
+       ]
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/lizardman/lizardman_idle_nw_v1.gif",
+         "date": "2026-11-06",
+         "note": "4-frame idle: breathing torso, forward knee hinge, tail sway, planted feet, rigid polearm, 4x200 ms"
+        }
+       ]
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/lizardman/lizardman_move_se_v1.gif",
+         "date": "2026-11-06",
+         "note": "6-frame low four-limb crawl, 6x110 ms, axe stowed on back"
+        },
+        {
+         "label": "v2",
+         "file": "files/lizardman/lizardman_move_se_v2.gif",
+         "date": "2026-11-06",
+         "note": "6-frame chunky crawl: source-mass torso and 3-5px shaded limbs, stowed axe, 6x110 ms, 56x52"
+        }
+       ]
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/lizardman/lizardman_move_nw_v1.gif",
+         "date": "2026-11-06",
+         "note": "6-frame low four-limb crawl, 6x110 ms, axe stowed on back"
+        },
+        {
+         "label": "v2",
+         "file": "files/lizardman/lizardman_move_nw_v2.gif",
+         "date": "2026-11-06",
+         "note": "6-frame chunky crawl: source-mass torso and 3-5px shaded limbs, stowed axe, 6x110 ms, 56x52"
+        }
+       ]
       },
       "hurt_se": {
        "status": "pending",
