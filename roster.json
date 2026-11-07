@@ -1,6 +1,6 @@
 {
  "project": "Aventail SRPG",
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "statuses": {
   "done": "In the game codebase and polished",
   "partial": "Imported into the codebase, not polished or incomplete",
@@ -3075,6 +3075,12 @@
          "file": "files/lizardman/lizardman_move_se_v2.gif",
          "date": "2026-11-06",
          "note": "6-frame chunky crawl: source-mass torso and 3-5px shaded limbs, stowed axe, 6x110 ms, 56x52"
+        },
+        {
+         "label": "v3",
+         "file": "files/lizardman/lizardman_move_se_v3.gif",
+         "date": "2026-11-07",
+         "note": "User-authored SE crawl, 6 frames, timing normalized to 110 ms, white backdrop made transparent"
         }
        ]
       },
@@ -3092,6 +3098,18 @@
          "file": "files/lizardman/lizardman_move_nw_v2.gif",
          "date": "2026-11-06",
          "note": "6-frame chunky crawl: source-mass torso and 3-5px shaded limbs, stowed axe, 6x110 ms, 56x52"
+        },
+        {
+         "label": "v3",
+         "file": "files/lizardman/lizardman_move_nw_v3.gif",
+         "date": "2026-11-07",
+         "note": "NW counterpart of user SE crawl: back of head, dorsal body, matched gait/tail, 6x110 ms, 67x70"
+        },
+        {
+         "label": "v4",
+         "file": "files/lizardman/lizardman_move_nw_v4.gif",
+         "date": "2026-11-07",
+         "note": "NW crawl v4: camera-preserving dorsal reproject of user SE poses, 6x110 ms, 67x70"
         }
        ]
       },
