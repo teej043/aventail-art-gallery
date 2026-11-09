@@ -1,6 +1,6 @@
 {
  "project": "Aventail SRPG",
- "updated": "2026-11-07",
+ "updated": "2026-11-09",
  "statuses": {
   "done": "In the game codebase and polished",
   "partial": "Imported into the codebase, not polished or incomplete",
@@ -3110,6 +3110,211 @@
          "file": "files/lizardman/lizardman_move_nw_v4.gif",
          "date": "2026-11-07",
          "note": "NW crawl v4: camera-preserving dorsal reproject of user SE poses, 6x110 ms, 67x70"
+        }
+       ]
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "unicorn",
+     "name": "Unicorn",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v4",
+         "file": "files/unicorn/unicorn_portrait_v4.webp",
+         "date": "2026-11-09",
+         "note": "Unicorn portrait draft: cool white coat, swept lavender mane, ivory horn; right-facing three-quarter bust, gaze/action still needs review"
+        }
+       ]
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/unicorn/unicorn_idle_se_v1.gif",
+         "date": "2026-11-09",
+         "note": "Four-frame idle: lavender mane ripple and tail sway only; head, body and hooves planted; 4x110 ms, 74x55"
+        }
+       ]
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/unicorn/unicorn_idle_nw_v1.gif",
+         "date": "2026-11-09",
+         "note": "Four-frame idle: lavender mane fringe ripple and tail sway only; head, body and hooves planted; 4x110 ms, 74x58"
+        }
+       ]
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/unicorn/unicorn_move_se_v1.gif",
+         "date": "2026-11-08",
+         "note": "Source-matched equine trot draft, 6x110 ms, 74x55; user SE art retained; hinged diagonal leg pairs"
+        },
+        {
+         "label": "v2-gallop",
+         "file": "files/unicorn/unicorn_move_se_v2-gallop.gif",
+         "date": "2026-11-09",
+         "note": "Gallop alternative: asymmetric sequential footfalls, gathered suspension and trailing hinds; 8x110 ms, 74x55; draft"
+        },
+        {
+         "label": "v3-gallop6f",
+         "file": "files/unicorn/unicorn_move_se_v3-gallop6f.gif",
+         "date": "2026-11-09",
+         "note": "Six-frame Gallop alternative: reworked asymmetric footfalls, reach/trail and gathered suspension; 6x110 ms, 74x55"
+        }
+       ]
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/unicorn/unicorn_move_nw_v1.gif",
+         "date": "2026-11-08",
+         "note": "Source-matched equine trot draft, 6x110 ms, 74x58; latest user NW art retained; hinged diagonal leg pairs"
+        },
+        {
+         "label": "v2-gallop",
+         "file": "files/unicorn/unicorn_move_nw_v2-gallop.gif",
+         "date": "2026-11-09",
+         "note": "Gallop alternative: asymmetric sequential footfalls, gathered suspension and trailing hinds; 8x110 ms, 74x60 (2px top padding); draft"
+        },
+        {
+         "label": "v3-gallop6f",
+         "file": "files/unicorn/unicorn_move_nw_v3-gallop6f.gif",
+         "date": "2026-11-09",
+         "note": "Six-frame Gallop alternative: reworked asymmetric footfalls, reach/trail and gathered suspension; 6x110 ms, 74x60 (2px top padding)"
+        }
+       ]
+      },
+      "hurt_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "hurt_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "attack_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "cast_nw": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_se": {
+       "status": "pending",
+       "versions": []
+      },
+      "skill_nw": {
+       "status": "pending",
+       "versions": []
+      }
+     }
+    },
+    {
+     "id": "faun",
+     "name": "Faun",
+     "kind": "creature",
+     "slots": {
+      "portrait": {
+       "status": "pending",
+       "versions": []
+      },
+      "idle_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/faun/faun_idle_se_v1.png",
+         "date": "2026-11-09",
+         "note": "Original static SE sprite (user), not an animation"
+        }
+       ]
+      },
+      "idle_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/faun/faun_idle_nw_v1.png",
+         "date": "2026-11-09",
+         "note": "Original static NW sprite (user), not an animation"
+        }
+       ]
+      },
+      "move_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/faun/faun_move_se_v1.gif",
+         "date": "2026-11-09",
+         "note": "Faun upper body (rigid, bob-matched) on user Satyr SE gallop legs, recoloured to Faun palette; 6x110 ms, 50x56 (6px top pad)"
+        }
+       ]
+      },
+      "move_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/faun/faun_move_nw_v1.gif",
+         "date": "2026-11-09",
+         "note": "Faun upper body (rigid, bob-matched, fur kept) on Satyr NW back-gallop legs, tail removed; 6x110 ms, 50x56 (6px top pad)"
         }
        ]
       },
