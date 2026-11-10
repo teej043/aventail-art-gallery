@@ -440,6 +440,34 @@
       "skill_nw": {
        "status": "pending",
        "versions": []
+      },
+      "throw_se": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/clay_golem/clay_golem_throw_se_v1.gif",
+         "date": "2026-11-10",
+         "note": "User-authored SE two-handed overhead throw, white backdrop made transparent; 7x200 ms, 76x90"
+        }
+       ]
+      },
+      "throw_nw": {
+       "status": "pending",
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/clay_golem/clay_golem_throw_nw_v1.gif",
+         "date": "2026-11-10",
+         "note": "NW back-view throw up-left matching user SE beats (posed from NW static, not mirrored); 7x200 ms, 76x90; draft"
+        },
+        {
+         "label": "v2",
+         "file": "files/clay_golem/clay_golem_throw_nw_v2.gif",
+         "date": "2026-11-10",
+         "note": "v2: hand-painted chunky arms, flat paddle hands (no ball fists), shoulders heave with the lift, constant rock-width grip; 7x200 ms, 76x90; draft"
+        }
+       ]
       }
      }
     },
