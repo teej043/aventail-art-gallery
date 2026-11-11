@@ -449,6 +449,12 @@
          "file": "files/clay_golem/clay_golem_throw_se_v1.gif",
          "date": "2026-11-10",
          "note": "User-authored SE two-handed overhead throw, white backdrop made transparent; 7x200 ms, 76x90"
+        },
+        {
+         "label": "v2",
+         "file": "files/clay_golem/clay_golem_throw_se_v2.gif",
+         "date": "2026-11-11",
+         "note": "User-updated SE throw: grip at chest, overhead lift/hold/wind-up, release down-right, follow-through (old standing first frame dropped), white made transparent; 6x200 ms, 76x90"
         }
        ]
       },
@@ -466,6 +472,18 @@
          "file": "files/clay_golem/clay_golem_throw_nw_v2.gif",
          "date": "2026-11-10",
          "note": "v2: hand-painted chunky arms, flat paddle hands (no ball fists), shoulders heave with the lift, constant rock-width grip; 7x200 ms, 76x90; draft"
+        },
+        {
+         "label": "v3",
+         "file": "files/clay_golem/clay_golem_throw_nw_v3.gif",
+         "date": "2026-11-11",
+         "note": "v3: remade for the 6-frame SE; back view from NW still, planted legs, painted clay-paddle hands, shoulders shrug on lift and roll forward on release up-left, arms kept visible on throw/follow-through; 6x200 ms, 76x90; draft"
+        },
+        {
+         "label": "v4",
+         "file": "files/clay_golem/clay_golem_throw_nw_v4.gif",
+         "date": "2026-11-11",
+         "note": "v4: F1/F5/F6 re-posed to the 6-frame SE (compact chest grip with forearms wrapped forward around the torso; release = heavy hunch, arms down and reaching forward-left; follow-through = arms hanging close in front, body recovering); F2-F4 = v3; 6x200 ms, 76x90; draft"
         }
        ]
       }
@@ -793,6 +811,12 @@
          "file": "files/titan/titan_attack_se_v7.gif",
          "date": "2026-10-30",
          "note": "Punch final (approved)"
+        },
+        {
+         "label": "v8",
+         "file": "files/titan/titan_attack_se_v8.gif",
+         "date": "2026-11-11",
+         "note": "User-updated SE punch (user art, magenta key made transparent). Canvas now 78x90 (was 76x84); timing 100/100/100/100/80/160 ms (was 120/100/100/160/80/160)"
         }
        ]
       },
@@ -3000,11 +3024,25 @@
       },
       "hurt_se": {
        "status": "pending",
-       "versions": []
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/cleric/cleric_hurt_se_v1.png",
+         "date": "2026-11-11",
+         "note": "Original hurt still SE (user), white made transparent; 52x52"
+        }
+       ]
       },
       "hurt_nw": {
        "status": "pending",
-       "versions": []
+       "versions": [
+        {
+         "label": "v1",
+         "file": "files/cleric/cleric_hurt_nw_v1.png",
+         "date": "2026-11-11",
+         "note": "Original hurt still NW (user), white made transparent; 52x52"
+        }
+       ]
       },
       "attack_se": {
        "status": "pending",
