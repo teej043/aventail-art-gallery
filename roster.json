@@ -1,6 +1,6 @@
 {
   "project": "Aventail SRPG",
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "statuses": {
     "done": "In the game codebase and polished",
     "partial": "Imported into the codebase, not polished or incomplete",
@@ -155,19 +155,59 @@
             },
             "hurt_se": {
               "status": "pending",
-              "versions": []
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/minotaur/minotaur_hurt_se_v1.png",
+                  "date": "2026-11-12",
+                  "note": "User SE hurt, white keyed transparent; 58x58"
+                }
+              ]
             },
             "hurt_nw": {
               "status": "pending",
-              "versions": []
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/minotaur/minotaur_hurt_nw_v1.png",
+                  "date": "2026-11-12",
+                  "note": "NW hurt from NW idle: torso/head rock back, flung right arm; 58x58"
+                }
+              ]
             },
             "attack_se": {
               "status": "pending",
-              "versions": []
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/minotaur/minotaur_attack_se_v1.gif",
+                  "date": "2026-11-12",
+                  "note": "User SE attack, white keyed transparent; 6x100 ms, 64x72"
+                }
+              ]
             },
             "attack_nw": {
               "status": "pending",
-              "versions": []
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/minotaur/minotaur_attack_nw_v1.gif",
+                  "date": "2026-11-12",
+                  "note": "First NW attack from NW idle; hammer rise; 6x100 ms, 64x72"
+                },
+                {
+                  "label": "v2",
+                  "file": "files/minotaur/minotaur_attack_nw_v2.gif",
+                  "date": "2026-11-12",
+                  "note": "Hammer lift travels up the screen-left side; legs unstretched on the rise"
+                },
+                {
+                  "label": "v3",
+                  "file": "files/minotaur/minotaur_attack_nw_v3.gif",
+                  "date": "2026-11-12",
+                  "note": "Screen-left leg lifts F2-F4 and stomps F5-F6 (latest)"
+                }
+              ]
             },
             "cast_se": {
               "status": "pending",
@@ -1323,11 +1363,37 @@
             },
             "attack_se": {
               "status": "pending",
-              "versions": []
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/giant/giant_attack_se_v1.gif",
+                  "date": "2026-11-12",
+                  "note": "User SE attack, white keyed transparent; 6x150 ms, 76x76"
+                }
+              ]
             },
             "attack_nw": {
               "status": "pending",
-              "versions": []
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/giant/giant_attack_nw_v1.gif",
+                  "date": "2026-11-12",
+                  "note": "First NW punch from NW still; 6x150 ms, 76x76"
+                },
+                {
+                  "label": "v2",
+                  "file": "files/giant/giant_attack_nw_v2.gif",
+                  "date": "2026-11-12",
+                  "note": "F5-F6 far-side punch, no bar over the head"
+                },
+                {
+                  "label": "v3",
+                  "file": "files/giant/giant_attack_nw_v3.gif",
+                  "date": "2026-11-12",
+                  "note": "F5-F6 striking arm under the back; only forearm/fist past the left outline (latest)"
+                }
+              ]
             },
             "cast_se": {
               "status": "pending",
@@ -3418,11 +3484,49 @@
             },
             "move_se": {
               "status": "pending",
-              "versions": []
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/djinn/djinn_move_se_v1.gif",
+                  "date": "2026-11-12",
+                  "note": "Pintor ponytail v1 on the Djinn-on-carpet composite (rigid hook sway, rejected as too stiff); 6x110 ms, 52x60"
+                },
+                {
+                  "label": "v2",
+                  "file": "files/djinn/djinn_move_se_v2.gif",
+                  "date": "2026-11-12",
+                  "note": "Pintor ponytail v2 (scaled hook offset; closer but superseded); 6x110 ms, 52x60"
+                },
+                {
+                  "label": "v3",
+                  "file": "files/djinn/djinn_move_se_v3.gif",
+                  "date": "2026-11-12",
+                  "note": "User's settled 2026-11-11 Djinn-on-carpet composite with traveling horse-tail wave ponytail; 6x110 ms, 52x60 (latest)"
+                }
+              ]
             },
             "move_nw": {
               "status": "pending",
-              "versions": []
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/djinn/djinn_move_nw_v1.gif",
+                  "date": "2026-11-12",
+                  "note": "Pintor ponytail v1 on the Djinn-on-carpet composite (rigid hook sway, rejected as too stiff); 6x110 ms, 52x60"
+                },
+                {
+                  "label": "v2",
+                  "file": "files/djinn/djinn_move_nw_v2.gif",
+                  "date": "2026-11-12",
+                  "note": "Pintor ponytail v2 (scaled hook offset; closer but superseded); 6x110 ms, 52x60"
+                },
+                {
+                  "label": "v3",
+                  "file": "files/djinn/djinn_move_nw_v3.gif",
+                  "date": "2026-11-12",
+                  "note": "User's settled 2026-11-11 Djinn-on-carpet composite with traveling horse-tail wave ponytail; 6x110 ms, 52x60 (latest)"
+                }
+              ]
             },
             "hurt_se": {
               "status": "pending",
@@ -3475,6 +3579,307 @@
                   "note": "Original spell NW on flying carpet (user), white made transparent; 6x100 ms, 52x60"
                 }
               ]
+            },
+            "skill_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "skill_nw": {
+              "status": "pending",
+              "versions": []
+            }
+          }
+        },
+        {
+          "id": "wyvern",
+          "name": "Wyvern",
+          "kind": "creature",
+          "slots": {
+            "portrait": {
+              "status": "pending",
+              "versions": []
+            },
+            "idle_se": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/wyvern/wyvern_idle_se_v1.gif",
+                  "date": "2026-11-12",
+                  "note": "Six-frame SE idle: modest wing flap, 1px body bob, traveling tail; 6x100 ms, 80x80"
+                },
+                {
+                  "label": "v2",
+                  "file": "files/wyvern/wyvern_idle_se_v2.gif",
+                  "date": "2026-11-12",
+                  "note": "Wings flap further down (RotSprite + foreshortening); 6x100 ms, 86x80 (latest)"
+                }
+              ]
+            },
+            "idle_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "move_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "move_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "hurt_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "hurt_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "attack_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "attack_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "cast_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "cast_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "skill_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "skill_nw": {
+              "status": "pending",
+              "versions": []
+            }
+          }
+        },
+        {
+          "id": "basilisk",
+          "name": "Basilisk",
+          "kind": "creature",
+          "slots": {
+            "portrait": {
+              "status": "pending",
+              "versions": []
+            },
+            "idle_se": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/basilisk/basilisk_idle_se_v1.png",
+                  "date": "2026-11-13",
+                  "note": "Recolour still: venomous green scales, bat wings, crown (SE, 78x75)"
+                }
+              ]
+            },
+            "idle_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "move_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "move_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "hurt_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "hurt_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "attack_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "attack_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "cast_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "cast_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "skill_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "skill_nw": {
+              "status": "pending",
+              "versions": []
+            }
+          }
+        },
+        {
+          "id": "roc",
+          "name": "Roc",
+          "kind": "creature",
+          "slots": {
+            "portrait": {
+              "status": "pending",
+              "versions": []
+            },
+            "idle_se": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/roc/roc_idle_se_v1.png",
+                  "date": "2026-11-13",
+                  "note": "Concept still v1 (SE, 78x78)"
+                },
+                {
+                  "label": "v2",
+                  "file": "files/roc/roc_idle_se_v2.png",
+                  "date": "2026-11-13",
+                  "note": "Concept still v1 alternate (SE, 78x78)"
+                },
+                {
+                  "label": "v3",
+                  "file": "files/roc/roc_idle_se_v3.png",
+                  "date": "2026-11-13",
+                  "note": "Concept still v2 (SE, 76x76, latest)"
+                }
+              ]
+            },
+            "idle_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "move_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "move_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "hurt_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "hurt_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "attack_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "attack_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "cast_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "cast_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "skill_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "skill_nw": {
+              "status": "pending",
+              "versions": []
+            }
+          }
+        },
+        {
+          "id": "wyrm",
+          "name": "Wyrm",
+          "kind": "creature",
+          "slots": {
+            "portrait": {
+              "status": "pending",
+              "versions": []
+            },
+            "idle_se": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/wyrm/wyrm_idle_se_v1.png",
+                  "date": "2026-11-13",
+                  "note": "User SE still, white keyed transparent; 77x80"
+                },
+                {
+                  "label": "v2",
+                  "file": "files/wyrm/wyrm_idle_se_v2.png",
+                  "date": "2026-11-13",
+                  "note": "Legless still: four legs removed, coils sit on a flat ground line (latest)"
+                }
+              ]
+            },
+            "idle_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "move_se": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/wyrm/wyrm_move_se_v1.gif",
+                  "date": "2026-11-13",
+                  "note": "Six-frame SE slither: travelling S-wave neck to tail, rigid head sway, paddling legs; 6x110 ms, 77x80"
+                },
+                {
+                  "label": "v2",
+                  "file": "files/wyrm/wyrm_move_se_v2.gif",
+                  "date": "2026-11-13",
+                  "note": "Legless grounded slither: lateral travelling wave on GY=75, delayed 1-2 px neck sway, rigid head, hook flick; 6x110 ms, 77x80 (latest)"
+                }
+              ]
+            },
+            "move_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "hurt_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "hurt_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "attack_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "attack_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "cast_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "cast_nw": {
+              "status": "pending",
+              "versions": []
             },
             "skill_se": {
               "status": "pending",
