@@ -1,6 +1,6 @@
 {
   "project": "Aventail SRPG",
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "statuses": {
     "done": "In the game codebase and polished",
     "partial": "Imported into the codebase, not polished or incomplete",
@@ -3872,6 +3872,388 @@
             "attack_nw": {
               "status": "pending",
               "versions": []
+            },
+            "cast_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "cast_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "skill_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "skill_nw": {
+              "status": "pending",
+              "versions": []
+            }
+          }
+        },
+        {
+          "id": "lumare",
+          "name": "Lumare",
+          "kind": "creature",
+          "slots": {
+            "portrait": {
+              "status": "pending",
+              "versions": []
+            },
+            "idle_se": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/lumare/lumare_idle_se_v1.png",
+                  "date": "2026-11-14",
+                  "note": "SE idle still from the user's Unicorn rest pose: no horn, dapple-grey mare, off-white mane/tail, forehead star, simple tack; ~93% scale, 74x55 (latest)"
+                },
+                {
+                  "label": "v2",
+                  "file": "files/lumare/lumare_idle_se_v2.png",
+                  "date": "2026-11-14",
+                  "note": "SE idle still v2: mid-grey dapple coat that reads grey at 1:1, one soft ground ellipse, draped blanket, strap-hung pouch; 74x55 (latest)"
+                },
+                {
+                  "label": "v3",
+                  "file": "files/lumare/lumare_idle_se_v3.png",
+                  "date": "2026-11-14",
+                  "note": "SE idle still v3: solid steel-grey cob (no dapples, no shadow), charcoal shaggy mane and fuller tail, pale star; 74x55"
+                },
+                {
+                  "label": "v4",
+                  "file": "files/lumare/lumare_idle_se_v4.gif",
+                  "date": "2026-11-14",
+                  "note": "4-frame idle from v3 still: gentle breath, weight shift, loose mane and tail; head and hooves planted; 4x110 ms, 74x55 (latest)"
+                },
+                {
+                  "label": "v4-still",
+                  "file": "files/lumare/lumare_idle_se_v4-still.png",
+                  "date": "2026-11-14",
+                  "note": "SE idle still v4: lighter mid steel grey (stone/neutral greys, not navy), hanging horse tail, tidied mane tufts; 74x55"
+                },
+                {
+                  "label": "v5",
+                  "file": "files/lumare/lumare_idle_se_v5.gif",
+                  "date": "2026-11-14",
+                  "note": "4-frame idle v2 from still v4: gentle breath, weight shift, loose mane and tail; 4x110 ms, 74x55 (latest)"
+                },
+                {
+                  "label": "v5-still",
+                  "file": "files/lumare/lumare_idle_se_v5-still.png",
+                  "date": "2026-11-14",
+                  "note": "SE idle still v5: Unicorn anatomy kept, steel-grey recolour, horn removed, ivory star, 1 px bridle, small mid-back blanket; 74x55"
+                },
+                {
+                  "label": "v6",
+                  "file": "files/lumare/lumare_idle_se_v6.gif",
+                  "date": "2026-11-14",
+                  "note": "4-frame idle from the Unicorn idle v1 with the v5 colour map and hand edits; 4x110 ms, 74x55 (latest)"
+                },
+                {
+                  "label": "v6-still",
+                  "file": "files/lumare/lumare_idle_se_v6-still.png",
+                  "date": "2026-11-14",
+                  "note": "SE idle still v6: same as v5 with no saddle blanket, coat regenerated from the colour-mapped Unicorn; 74x55"
+                },
+                {
+                  "label": "v7",
+                  "file": "files/lumare/lumare_idle_se_v7.gif",
+                  "date": "2026-11-14",
+                  "note": "4-frame idle from the Unicorn idle v1 with the v6 colour map (no saddle blanket); 4x110 ms, 74x55 (latest)"
+                }
+              ]
+            },
+            "idle_nw": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/lumare/lumare_idle_nw_v1.png",
+                  "date": "2026-11-14",
+                  "note": "NW idle still, built from the latest user NW Unicorn (not a mirror of SE): no horn, dapple-grey mare, off-white mane/tail, forehead star, simple tack; ~93% scale, 74x58 (latest)"
+                },
+                {
+                  "label": "v2",
+                  "file": "files/lumare/lumare_idle_nw_v2.png",
+                  "date": "2026-11-14",
+                  "note": "NW idle still v2, from the NW source (not a mirror): mid-grey dapple coat, one soft ground ellipse, draped blanket, strap-hung pouch; 74x58 (latest)"
+                },
+                {
+                  "label": "v3",
+                  "file": "files/lumare/lumare_idle_nw_v3.png",
+                  "date": "2026-11-14",
+                  "note": "NW idle still v3, from the NW source (not a mirror): solid steel-grey cob, charcoal mane/tail, pale star, no shadow; 74x58"
+                },
+                {
+                  "label": "v4",
+                  "file": "files/lumare/lumare_idle_nw_v4.gif",
+                  "date": "2026-11-14",
+                  "note": "4-frame idle from v3 still: gentle breath, weight shift, loose mane and tail; head and hooves planted; 4x110 ms, 74x58 (latest)"
+                },
+                {
+                  "label": "v4-still",
+                  "file": "files/lumare/lumare_idle_nw_v4-still.png",
+                  "date": "2026-11-14",
+                  "note": "NW idle still v4, from the NW source (not a mirror): lighter mid steel, hanging tail, charcoal mane; 74x58"
+                },
+                {
+                  "label": "v5",
+                  "file": "files/lumare/lumare_idle_nw_v5.gif",
+                  "date": "2026-11-14",
+                  "note": "4-frame idle v2 from still v4; 4x110 ms, 74x58 (latest)"
+                },
+                {
+                  "label": "v5-still",
+                  "file": "files/lumare/lumare_idle_nw_v5-still.png",
+                  "date": "2026-11-14",
+                  "note": "NW idle still v5, from the updated NW Unicorn source (not a mirror): same edits as SE; 74x58"
+                },
+                {
+                  "label": "v6",
+                  "file": "files/lumare/lumare_idle_nw_v6.gif",
+                  "date": "2026-11-14",
+                  "note": "4-frame idle from the Unicorn idle v1 with the v5 colour map and hand edits; 4x110 ms, 74x58 (latest)"
+                },
+                {
+                  "label": "v6-still",
+                  "file": "files/lumare/lumare_idle_nw_v6-still.png",
+                  "date": "2026-11-14",
+                  "note": "NW idle still v6, from the updated NW Unicorn source (not a mirror): same as v5 with no saddle blanket; 74x58"
+                },
+                {
+                  "label": "v7",
+                  "file": "files/lumare/lumare_idle_nw_v7.gif",
+                  "date": "2026-11-14",
+                  "note": "4-frame idle from the Unicorn idle v1 with the v6 colour map (no saddle blanket); 4x110 ms, 74x58 (latest)"
+                }
+              ]
+            },
+            "move_se": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/lumare/lumare_move_se_v1.gif",
+                  "date": "2026-11-14",
+                  "note": "6-frame light trot/canter from v3 still, lower-energy than the Unicorn gallop; tack follows, pouch bounce, mane/tail flow back; 6x110 ms, 74x55 (latest)"
+                },
+                {
+                  "label": "v2",
+                  "file": "files/lumare/lumare_move_se_v2.gif",
+                  "date": "2026-11-14",
+                  "note": "6-frame light trot/canter v2 from still v4 (lighter mid steel, hanging tail); 6x110 ms, 74x55 (latest)"
+                },
+                {
+                  "label": "v3",
+                  "file": "files/lumare/lumare_move_se_v3.gif",
+                  "date": "2026-11-14",
+                  "note": "6-frame gallop from the Unicorn gallop v5 with the v5 colour map and hand edits; 6x110 ms, 74x55 (latest)"
+                },
+                {
+                  "label": "v4",
+                  "file": "files/lumare/lumare_move_se_v4.gif",
+                  "date": "2026-11-14",
+                  "note": "6-frame gallop from the Unicorn gallop v5 with the v6 colour map (no saddle blanket); 6x110 ms, 74x55 (latest)"
+                }
+              ]
+            },
+            "move_nw": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/lumare/lumare_move_nw_v1.gif",
+                  "date": "2026-11-14",
+                  "note": "6-frame light trot/canter from the NW v3 still (not a mirror); 6x110 ms, 74x58 (latest)"
+                },
+                {
+                  "label": "v2",
+                  "file": "files/lumare/lumare_move_nw_v2.gif",
+                  "date": "2026-11-14",
+                  "note": "6-frame light trot/canter v2 from the NW v4 still (not a mirror); 6x110 ms, 74x58 (latest)"
+                },
+                {
+                  "label": "v3",
+                  "file": "files/lumare/lumare_move_nw_v3.gif",
+                  "date": "2026-11-14",
+                  "note": "6-frame gallop from the Unicorn gallop v5 (NW source, not a mirror) with the v5 colour map and hand edits; 6x110 ms, 74x60 (latest)"
+                },
+                {
+                  "label": "v4",
+                  "file": "files/lumare/lumare_move_nw_v4.gif",
+                  "date": "2026-11-14",
+                  "note": "6-frame gallop from the Unicorn gallop v5 (NW source, not a mirror) with the v6 colour map (no saddle blanket); 6x110 ms, 74x60 (latest)"
+                }
+              ]
+            },
+            "hurt_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "hurt_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "attack_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "attack_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "cast_se": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/lumare/lumare_cast_se_v1.gif",
+                  "date": "2026-11-14",
+                  "note": "Touch-heal: lowers muzzle forward and down toward an ally, forehead star glows on frames 3-4 and fades on 5, then rises; feet anchored; 6x110 ms, 74x55 (latest)"
+                },
+                {
+                  "label": "v2",
+                  "file": "files/lumare/lumare_cast_se_v2.gif",
+                  "date": "2026-11-14",
+                  "note": "Touch-heal v2: downward nod (forelock hangs, head shape unchanged), tighter neck on frames 3-4, frame 6 is exact rest; 6x110 ms, 74x55 (latest)"
+                },
+                {
+                  "label": "v3",
+                  "file": "files/lumare/lumare_cast_se_v3.gif",
+                  "date": "2026-11-14",
+                  "note": "Touch-heal v3 from still v5: rigid head+neck nod, anatomy kept, frame 6 is exact rest; 6x110 ms, 74x55 (latest)"
+                },
+                {
+                  "label": "v4",
+                  "file": "files/lumare/lumare_cast_se_v4.gif",
+                  "date": "2026-11-14",
+                  "note": "Touch-heal v4 from still v6 (no saddle blanket); rigid head+neck nod, frame 6 is exact rest; 6x110 ms, 74x55 (latest)"
+                }
+              ]
+            },
+            "cast_nw": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/lumare/lumare_cast_nw_v1.gif",
+                  "date": "2026-11-14",
+                  "note": "Touch-heal from the NW v3 still (not a mirror): muzzle forward and down, star glow on frames 3-4; 6x110 ms, 74x58 (latest)"
+                },
+                {
+                  "label": "v2",
+                  "file": "files/lumare/lumare_cast_nw_v2.gif",
+                  "date": "2026-11-14",
+                  "note": "Touch-heal v2 from the NW v4 still (not a mirror); frame 6 is exact rest; 6x110 ms, 74x58 (latest)"
+                },
+                {
+                  "label": "v3",
+                  "file": "files/lumare/lumare_cast_nw_v3.gif",
+                  "date": "2026-11-14",
+                  "note": "Touch-heal v3 from the NW v5 still (not a mirror); frame 6 is exact rest; 6x110 ms, 74x58 (latest)"
+                },
+                {
+                  "label": "v4",
+                  "file": "files/lumare/lumare_cast_nw_v4.gif",
+                  "date": "2026-11-14",
+                  "note": "Touch-heal v4 from the NW v6 still (not a mirror, no saddle blanket); frame 6 is exact rest; 6x110 ms, 74x58 (latest)"
+                }
+              ]
+            },
+            "skill_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "skill_nw": {
+              "status": "pending",
+              "versions": []
+            }
+          }
+        },
+        {
+          "id": "paniscus",
+          "name": "Paniscus",
+          "kind": "creature",
+          "slots": {
+            "portrait": {
+              "status": "pending",
+              "versions": []
+            },
+            "idle_se": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/paniscus/paniscus_idle_se_v1.gif",
+                  "date": "2026-11-14",
+                  "note": "User-authored SE idle: young faun in sage tunic twirls a pale ice-blue energy whip; white keyed transparent (arm-gap holes included); 4x100 ms, 52x52 (latest)"
+                }
+              ]
+            },
+            "idle_nw": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/paniscus/paniscus_idle_nw_v1.gif",
+                  "date": "2026-11-14",
+                  "note": "User-authored NW idle, from the NW source (not a mirror of SE); white keyed transparent (arm-gap holes included); 4x100 ms, 52x52 (latest)"
+                }
+              ]
+            },
+            "move_se": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/paniscus/paniscus_move_se_v1.gif",
+                  "date": "2026-11-14",
+                  "note": "User-authored SE move: young faun in sage tunic runs with a pale ice-blue energy whip; white keyed transparent (arm-gap holes included); 6x100 ms, 52x52 (latest)"
+                }
+              ]
+            },
+            "move_nw": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/paniscus/paniscus_move_nw_v1.gif",
+                  "date": "2026-11-14",
+                  "note": "User-authored NW move, from the NW source (not a mirror of SE); white keyed transparent (arm-gap holes included); 6x200 ms, 52x52 (latest)"
+                }
+              ]
+            },
+            "hurt_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "hurt_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "attack_se": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/paniscus/paniscus_attack_se_v1.gif",
+                  "date": "2026-11-14",
+                  "note": "User-authored SE attack: whip-crack of the pale ice-blue energy lash, raised then slashed across; white keyed transparent; 7x100 ms, 52x52 (latest)"
+                }
+              ]
+            },
+            "attack_nw": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/paniscus/paniscus_attack_nw_v1.gif",
+                  "date": "2026-11-14",
+                  "note": "User-authored NW attack, from the NW source (not a mirror of SE); white keyed transparent; 8x100 ms, 52x52 (latest)"
+                }
+              ]
             },
             "cast_se": {
               "status": "pending",
