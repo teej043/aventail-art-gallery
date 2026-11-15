@@ -4227,11 +4227,25 @@
             },
             "hurt_se": {
               "status": "pending",
-              "versions": []
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/paniscus/paniscus_hurt_se_v1.png",
+                  "date": "2026-11-15",
+                  "note": "Original hurt still SE (user): young faun in sage tunic recoils with arms out, pale ice-blue energy whip at his feet; white made transparent; 52x52 (latest)"
+                }
+              ]
             },
             "hurt_nw": {
               "status": "pending",
-              "versions": []
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/paniscus/paniscus_hurt_nw_v1.png",
+                  "date": "2026-11-15",
+                  "note": "Original hurt still NW (user), from the NW source (not a mirror of SE); white made transparent; 52x52 (latest)"
+                }
+              ]
             },
             "attack_se": {
               "status": "pending",
