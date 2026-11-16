@@ -2593,7 +2593,7 @@
                   "label": "v2",
                   "file": "files/direwolf/direwolf_move_se_v2.gif",
                   "date": "2026-11-12",
-                  "note": "Six-frame sprint (double-suspension gallop): front/hind pairs, 6\u201311 px reach, 2\u20133 px body bob, streaming tail; 6x110 ms, 72x56"
+                  "note": "Six-frame sprint (double-suspension gallop): front/hind pairs, 6–11 px reach, 2–3 px body bob, streaming tail; 6x110 ms, 72x56"
                 }
               ]
             },
@@ -2610,7 +2610,7 @@
                   "label": "v2",
                   "file": "files/direwolf/direwolf_move_nw_v2.gif",
                   "date": "2026-11-12",
-                  "note": "Six-frame sprint (double-suspension gallop): front/hind pairs, 6\u201311 px reach, 2\u20133 px body bob, streaming tail; 6x110 ms, 72x56"
+                  "note": "Six-frame sprint (double-suspension gallop): front/hind pairs, 6–11 px reach, 2–3 px body bob, streaming tail; 6x110 ms, 72x56"
                 }
               ]
             },
@@ -3898,7 +3898,14 @@
           "slots": {
             "portrait": {
               "status": "pending",
-              "versions": []
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/lumare/lumare_portrait_v1.webp",
+                  "date": "2026-11-14",
+                  "note": "Approved portrait, raw colour, white bg"
+                }
+              ]
             },
             "idle_se": {
               "status": "pending",
@@ -4179,7 +4186,14 @@
           "slots": {
             "portrait": {
               "status": "pending",
-              "versions": []
+              "versions": [
+                {
+                  "label": "v9",
+                  "file": "files/paniscus/paniscus_portrait_v9.webp",
+                  "date": "2026-11-15",
+                  "note": "Full-body, shepherd's sling, approved"
+                }
+              ]
             },
             "idle_se": {
               "status": "pending",
