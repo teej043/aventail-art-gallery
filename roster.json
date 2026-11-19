@@ -1,6 +1,6 @@
 {
   "project": "Aventail SRPG",
-  "updated": "2026-11-14",
+  "updated": "2026-11-19",
   "statuses": {
     "done": "In the game codebase and polished",
     "partial": "Imported into the codebase, not polished or incomplete",
@@ -1505,12 +1505,43 @@
                   "file": "files/centaur/centaur_attack_se_v4.gif",
                   "date": "2026-10-29",
                   "note": "Attack final"
+                },
+                {
+                  "label": "v5",
+                  "file": "files/centaur/centaur_attack_se_v5.gif",
+                  "date": "2026-11-19",
+                  "note": "User v5 source (black background patches)"
+                },
+                {
+                  "label": "v6",
+                  "file": "files/centaur/centaur_attack_se_v6.gif",
+                  "date": "2026-11-19",
+                  "note": "v5 with black patches cleared to transparent; timing unchanged (latest)"
                 }
               ]
             },
             "attack_nw": {
               "status": "pending",
-              "versions": []
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/centaur/centaur_attack_nw_v1.gif",
+                  "date": "2026-11-19",
+                  "note": "Back three-quarter attack from SE v6, same timing"
+                },
+                {
+                  "label": "v2",
+                  "file": "files/centaur/centaur_attack_nw_v2.gif",
+                  "date": "2026-11-19",
+                  "note": "Rebuilt on user NW idle; legs identical to idle"
+                },
+                {
+                  "label": "v3",
+                  "file": "files/centaur/centaur_attack_nw_v3.gif",
+                  "date": "2026-11-19",
+                  "note": "User polished update (latest)"
+                }
+              ]
             },
             "cast_se": {
               "status": "pending",
@@ -4282,6 +4313,273 @@
                   "note": "User-authored NW attack, from the NW source (not a mirror of SE); white keyed transparent; 8x100 ms, 52x52 (latest)"
                 }
               ]
+            },
+            "cast_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "cast_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "skill_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "skill_nw": {
+              "status": "pending",
+              "versions": []
+            }
+          }
+        },
+        {
+          "id": "warrior",
+          "name": "Warrior",
+          "kind": "character",
+          "slots": {
+            "portrait": {
+              "status": "pending",
+              "versions": []
+            },
+            "idle_se": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/warrior/warrior_idle_se_v1.gif",
+                  "date": "2026-11-19",
+                  "note": "User idle (latest)"
+                }
+              ]
+            },
+            "idle_nw": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/warrior/warrior_idle_nw_v1.gif",
+                  "date": "2026-11-19",
+                  "note": "User idle (latest)"
+                }
+              ]
+            },
+            "move_se": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v3",
+                  "file": "files/warrior/warrior_move_se_v3.gif",
+                  "date": "2026-11-19",
+                  "note": "In-place step on user idle, 6x110ms"
+                },
+                {
+                  "label": "v4",
+                  "file": "files/warrior/warrior_move_se_v4.gif",
+                  "date": "2026-11-19",
+                  "note": "User polished update (latest)"
+                }
+              ]
+            },
+            "move_nw": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v2",
+                  "file": "files/warrior/warrior_move_nw_v2.gif",
+                  "date": "2026-11-19",
+                  "note": "Walk on user back idle, 6x110ms"
+                },
+                {
+                  "label": "v3",
+                  "file": "files/warrior/warrior_move_nw_v3.gif",
+                  "date": "2026-11-19",
+                  "note": "User polished update (latest)"
+                }
+              ]
+            },
+            "hurt_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "hurt_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "attack_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "attack_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "cast_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "cast_nw": {
+              "status": "pending",
+              "versions": []
+            },
+            "skill_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "skill_nw": {
+              "status": "pending",
+              "versions": []
+            }
+          }
+        },
+        {
+          "id": "drake",
+          "name": "Drake",
+          "kind": "creature",
+          "slots": {
+            "portrait": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/drake/drake_portrait_v1.webp",
+                  "date": "2026-11-19",
+                  "note": "Full-body rearing snap, wingless four-legged Drake from the user sprites, two-toed feet, raw colour on white (latest)"
+                }
+              ]
+            },
+            "idle_se": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/drake/drake_idle_se_v1.png",
+                  "date": "2026-11-19",
+                  "note": "User SE still"
+                },
+                {
+                  "label": "v2",
+                  "file": "files/drake/drake_idle_se_v2.png",
+                  "date": "2026-11-19",
+                  "note": "User flipped to face SE (latest)"
+                }
+              ]
+            },
+            "idle_nw": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v2",
+                  "file": "files/drake/drake_idle_nw_v2.png",
+                  "date": "2026-11-19",
+                  "note": "NW back-view still"
+                },
+                {
+                  "label": "v3",
+                  "file": "files/drake/drake_idle_nw_v3.png",
+                  "date": "2026-11-19",
+                  "note": "User edit of NW back view (latest)"
+                }
+              ]
+            },
+            "move_se": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/drake/drake_move_se_v1.gif",
+                  "date": "2026-11-19",
+                  "note": "Six-frame in-place trot from user SE still: diagonal leg pairs, 1px body bob, tail sway; 6x110 ms, 76x76"
+                },
+                {
+                  "label": "v2",
+                  "file": "files/drake/drake_move_se_v2.gif",
+                  "date": "2026-11-19",
+                  "note": "Six-frame in-place crawl: full stride (reach/plant/push-back), diagonal pairs, body S-curve, travelling tail wave; 6x110 ms, 76x76"
+                },
+                {
+                  "label": "v3",
+                  "file": "files/drake/drake_move_se_v3.gif",
+                  "date": "2026-11-19",
+                  "note": "Seam fix of v2 crawl: filled 1px neck/body-shift slits; motion unchanged; 6x110 ms, 76x76"
+                },
+                {
+                  "label": "v4",
+                  "file": "files/drake/drake_move_se_v4.gif",
+                  "date": "2026-11-19",
+                  "note": "user polish (latest)"
+                }
+              ]
+            },
+            "move_nw": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/drake/drake_move_nw_v1.gif",
+                  "date": "2026-11-19",
+                  "note": "Six-frame in-place trot from user NW still: far-fore + mid-green then hind lift, 1px body bob, tail sway; 6x110 ms, 85x74"
+                },
+                {
+                  "label": "v2",
+                  "file": "files/drake/drake_move_nw_v2.gif",
+                  "date": "2026-11-19",
+                  "note": "Six-frame in-place crawl: full stride (reach/plant/push-back), diagonal pairs, body S-curve, travelling tail wave; 6x110 ms, 85x74"
+                },
+                {
+                  "label": "v3",
+                  "file": "files/drake/drake_move_nw_v3.gif",
+                  "date": "2026-11-19",
+                  "note": "Seam fix of v2 crawl: filled 1px neck and tail-wave slits; motion unchanged; 6x110 ms, 85x74"
+                },
+                {
+                  "label": "v4",
+                  "file": "files/drake/drake_move_nw_v4.gif",
+                  "date": "2026-11-19",
+                  "note": "Closed open-ended 2px tail-root slit on f0 (and a 1px slit on f5); motion otherwise identical to v3; 6x110 ms, 85x74"
+                },
+                {
+                  "label": "v5",
+                  "file": "files/drake/drake_move_nw_v5.gif",
+                  "date": "2026-11-19",
+                  "note": "Crawl along the depth axis (reach up-left / push down-right), matching the user SE polish rhythm; 6x100 ms, 85x74"
+                },
+                {
+                  "label": "v6",
+                  "file": "files/drake/drake_move_nw_v6.gif",
+                  "date": "2026-11-19",
+                  "note": "User polish NW crawl; 6x100 ms, 85x74 (latest)"
+                }
+              ]
+            },
+            "hurt_se": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/drake/drake_hurt_se_v1.gif",
+                  "date": "2026-11-19",
+                  "note": "User SE hurt still, 76x76 (latest)"
+                }
+              ]
+            },
+            "hurt_nw": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/drake/drake_hurt_nw_v1.gif",
+                  "date": "2026-11-19",
+                  "note": "User NW hurt still, 85x74 (latest)"
+                }
+              ]
+            },
+            "attack_se": {
+              "status": "pending",
+              "versions": []
+            },
+            "attack_nw": {
+              "status": "pending",
+              "versions": []
             },
             "cast_se": {
               "status": "pending",
