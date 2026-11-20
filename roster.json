@@ -1,6 +1,6 @@
 {
   "project": "Aventail SRPG",
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "statuses": {
     "done": "In the game codebase and polished",
     "partial": "Imported into the codebase, not polished or incomplete",
@@ -13,7 +13,8 @@
     "hurt": "Hurt",
     "attack": "Attack",
     "cast": "Cast Spell",
-    "skill": "Skill"
+    "skill": "Skill",
+    "rear": "Rear"
   },
   "categories": [
     {
@@ -2624,7 +2625,7 @@
                   "label": "v2",
                   "file": "files/direwolf/direwolf_move_se_v2.gif",
                   "date": "2026-11-12",
-                  "note": "Six-frame sprint (double-suspension gallop): front/hind pairs, 6–11 px reach, 2–3 px body bob, streaming tail; 6x110 ms, 72x56"
+                  "note": "Six-frame sprint (double-suspension gallop): front/hind pairs, 6\u201311 px reach, 2\u20133 px body bob, streaming tail; 6x110 ms, 72x56"
                 }
               ]
             },
@@ -2641,7 +2642,7 @@
                   "label": "v2",
                   "file": "files/direwolf/direwolf_move_nw_v2.gif",
                   "date": "2026-11-12",
-                  "note": "Six-frame sprint (double-suspension gallop): front/hind pairs, 6–11 px reach, 2–3 px body bob, streaming tail; 6x110 ms, 72x56"
+                  "note": "Six-frame sprint (double-suspension gallop): front/hind pairs, 6\u201311 px reach, 2\u20133 px body bob, streaming tail; 6x110 ms, 72x56"
                 }
               ]
             },
@@ -3267,7 +3268,14 @@
             },
             "attack_se": {
               "status": "pending",
-              "versions": []
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/lizardman/lizardman_attack_se_v1.gif",
+                  "date": "2026-11-20",
+                  "note": "Six-frame SE overhead axe chop from the user's standing still: ready, windup, peak, strike, impact hold, recover; 6x110 ms, 96x96 (latest)"
+                }
+              ]
             },
             "attack_nw": {
               "status": "pending",
@@ -4207,6 +4215,46 @@
             "skill_nw": {
               "status": "pending",
               "versions": []
+            },
+            "rear_se": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/lumare/lumare_rear_se_v1.gif",
+                  "date": "2026-11-20",
+                  "note": "Generic rear from still v6 (current canon, not the named v2 still): crouch, rise, peak paw, peak-hold paw swap, front-hoof stamp, recover toward idle; usable for attack or spell cast; no baked effects; 6x110 ms, 74x97, transparent"
+                },
+                {
+                  "label": "v2",
+                  "file": "files/lumare/lumare_rear_se_v2.gif",
+                  "date": "2026-11-20",
+                  "note": "User polish of the SE rear: collected step, rise with bent-knee fores, tucked fores, high paw, forward-down reach, recover almost to the rise; 6x110 ms, 74x100, transparent, no shadow, charcoal hooves, no bridle (latest)"
+                }
+              ]
+            },
+            "rear_nw": {
+              "status": "pending",
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/lumare/lumare_rear_nw_v1.gif",
+                  "date": "2026-11-20",
+                  "note": "Generic rear from the NW v6 still (not a mirror of SE): same timing and pose breakdown as rear_se; 6x110 ms, 74x100, transparent"
+                },
+                {
+                  "label": "v2",
+                  "file": "files/lumare/lumare_rear_nw_v2.gif",
+                  "date": "2026-11-20",
+                  "note": "NW rear matching the user's polished SE phases and timing, from the v6 NW still (not a mirror); bent-knee fores, charcoal hooves, no shadow, no bridle; 6x110 ms, 74x100, transparent"
+                },
+                {
+                  "label": "v3",
+                  "file": "files/lumare/lumare_rear_nw_v3.gif",
+                  "date": "2026-11-20",
+                  "note": "NW rear v3: painted hind legs cut from the v6 NW idle still (thighs, bent hocks, cannons, hooves) and attached at the haunch; supporting hoof planted at y=95; flexed hind is the idle near hind with the lower leg pivoted at the hock; fores/body/head/mane/tail kept from v2; 6x110 ms, 74x100, transparent, no shadow, charcoal hooves (latest)"
+                }
+              ]
             }
           }
         },
@@ -4407,11 +4455,31 @@
             },
             "attack_se": {
               "status": "pending",
-              "versions": []
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/warrior/warrior_attack_se_v1.gif",
+                  "date": "2026-11-20",
+                  "note": "User SE attack GIF, 6x100 ms, 55x85, unflagged white background (latest)"
+                }
+              ]
             },
             "attack_nw": {
               "status": "pending",
-              "versions": []
+              "versions": [
+                {
+                  "label": "v1",
+                  "file": "files/warrior/warrior_attack_nw_v1.gif",
+                  "date": "2026-11-20",
+                  "note": "Six-frame NW overhead axe chop from the user's NW idle back view: ready, windup, peak hold, strike toward up-left with smear, recover; 6x100 ms, 55x85, transparent"
+                },
+                {
+                  "label": "v2",
+                  "file": "files/warrior/warrior_attack_nw_v2.gif",
+                  "date": "2026-11-20",
+                  "note": "Corrected leg: lifts his left (shield-side) on f2-f3, plants it in a forward lunge on f4; cleaner arms/hafts, smaller smear; 6x100 ms, 55x85 (latest)"
+                }
+              ]
             },
             "cast_se": {
               "status": "pending",
@@ -4443,7 +4511,13 @@
                   "label": "v1",
                   "file": "files/drake/drake_portrait_v1.webp",
                   "date": "2026-11-19",
-                  "note": "Full-body rearing snap, wingless four-legged Drake from the user sprites, two-toed feet, raw colour on white (latest)"
+                  "note": "Full-body rearing snap, wingless four-legged Drake from the user sprites, two-toed feet, raw colour on white"
+                },
+                {
+                  "label": "v2",
+                  "file": "files/drake/drake_portrait_v2.webp",
+                  "date": "2026-11-19",
+                  "note": "Full-body rearing snap, three talons on each hand and foot, otherwise identical to v1, raw colour on white (latest)"
                 }
               ]
             },
